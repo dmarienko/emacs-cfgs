@@ -1,16 +1,16 @@
 (require 'color-theme)
-(color-theme-initialize) 
+;;(color-theme-initialize) 
 
 (defun color-theme-dark-mde ()
   "Color theme by Dmitry Marienko, created 2013-mar-02."
   (interactive)
   (color-theme-install
    '(color-theme-dark-mde
-     ((background-color . "gray10")
+     ((background-color . "#202020")
       (background-mode . dark)
       (border-color . "black")
       (cursor-color . "orange")
-      (foreground-color . "#2BB22B") ;;"azure3")
+      (foreground-color . "#419910") ;;"azure3")
       (mouse-color . "yellow"))
      ((help-highlight-face . underline)
       (list-matching-lines-face . bold)
@@ -74,18 +74,19 @@
      (font-latex-warning-face ((t (:bold t :foreground "Red" :weight bold))))
 					; ---------------
      (font-lock-builtin-face ((t (:foreground "DodgerBlue1")))); "LightSteelBlue"))))
-     (font-lock-comment-face ((t (:foreground "#505050"))))
+     (font-lock-comment-face ((t (:foreground "#575757"))))
      (font-lock-constant-face ((t (:bold t :foreground "Aquamarine"))))
      (font-lock-doc-face ((t (:foreground "LightSalmon"))))
      (font-lock-function-name-face ((t (:bold t :foreground "#a0d0a0"))))
 ;;     (font-lock-keyword-face ((t (:bold t :foreground "LimeGreen")))) ; "#bcf0f1"))))
-     (font-lock-keyword-face ((t (:bold t :foreground "#2437FF")))) ; "#bcf0f1"))))
-     (font-lock-string-face ((t (:foreground "goldenrod"))))
+     (font-lock-keyword-face ((t (:bold t :foreground "#987804")))) ; "#bcf0f1"))))
+     ;;(font-lock-string-face ((t (:foreground "goldenrod"))))
+	 (font-lock-string-face ((t (:foreground "#B2C284"))))
      (font-lock-type-face ((t (:bold t :foreground "#364498"))))
      (font-lock-variable-name-face ((t (:foreground "LightGoldenrod"))))
      (font-lock-warning-face ((t (:bold t :foreground "Pink" :weight bold))))
 					; ---------------
-     (fringe ((t (:background "grey10"))))
+     (fringe ((t (:background "gray15"))))
      (mode-line-custom ((t (:bold t :foreground "LimeGreen" :weight bold))))
      (header-line ((t (:box (:line-width -1 :style released-button) :background "grey20" :foreground "grey90" :box nil))))
      (highlight ((t (:background "darkolivegreen"))))
@@ -144,69 +145,201 @@
      (widget-field-face ((t (:background "dim gray"))))
      (widget-inactive-face ((t (:foreground "light gray"))))
      (hl-line ((t (:background "#252525"))))
-     ;;(mode-line ((t (:background "grey75" :foreground "black" :box (:line-width -1 :style released-button)))))
-     (mode-line ((t (:foreground "#ffffff" :background "#333333" :box (:line-width -1 :style released-button)))))
+     ;;(mode-line ((t (:foreground "#ffffff" :background "#333333" :box (:line-width -1 :style released-button)))))
+     (mode-line ((t (:foreground "gray60" :background "gray20" :inverse-video nil :box nil))))
      (minibuffer-prompt ((default (:foreground "SeaGreen")) (nil (:foreground "SeaGreen"))))
+
+	 (ecb-default-highlight-face ((t (:background "#2e61c2"))))
+	 (ecb-analyse-face ((((class color) (background dark)) (:inherit ecb-default-highlight-face :background "#2e61c2"))))
+	 (ecb-directory-face ((t (:inherit ecb-default-highlight-face :background "#2e61c2"))))
+	 (ecb-history-face ((((class color) (background dark)) (:inherit ecb-default-highlight-face :background "#2e61c2"))))
+	 (ecb-method-face ((t (:inherit ecb-default-highlight-face :background "#2e61c2"))))
+	 (ecb-source-face ((t (:inherit ecb-default-highlight-face :background "#2e61c2"))))
+
+	 (linum ((t (:inherit (shadow default) :foreground "gray40" :background "gray15" :height 80))))
+
      (widget-single-line-field-face ((t (:background "dim gray")))))))
 
 
 ;; use setq-default to set it for /all/ modes
-(setq-default mode-line-format
-      (list
-       ;; the buffer name; the file name as a tool tip
-       '(:eval (propertize "     %b " 'face 'mode-line-custom ;;'font-lock-keyword-face
-			   'help-echo (buffer-file-name)))
+;; (setq-default mode-line-format
+;;       (list
+;;        ;; the buffer name; the file name as a tool tip
+;;        '(:eval (propertize "     %b " 'face 'mode-line-custom ;;'font-lock-keyword-face
+;; 			   'help-echo (buffer-file-name)))
        
-       ;; line and column
-       "(" ;; '%02' to set to 2 chars at least; prevents flickering
-       (propertize "%02l" 'face 'font-lock-type-face) ","
-       (propertize "%02c" 'face 'font-lock-type-face) 
-       ") "
+;;        ;; line and column
+;;        "(" ;; '%02' to set to 2 chars at least; prevents flickering
+;;        (propertize "%02l" 'face 'font-lock-type-face) ","
+;;        (propertize "%02c" 'face 'font-lock-type-face) 
+;;        ") "
        
-       ;; relative position, size of file
-       "["
-       (propertize "%p" 'face 'font-lock-constant-face) ;; % above top
-       "/"
-       (propertize "%I" 'face 'font-lock-constant-face) ;; size
-       "] "
+;;        ;; relative position, size of file
+;;        "["
+;;        (propertize "%p" 'face 'font-lock-constant-face) ;; % above top
+;;        "/"
+;;        (propertize "%I" 'face 'font-lock-constant-face) ;; size
+;;        "] "
        
-       ;; the current major mode for the buffer.
-       "["
-       '(:eval (propertize "%m" 'face 'font-lock-string-face
-			   'help-echo buffer-file-coding-system))
-       "] "
+;;        ;; the current major mode for the buffer.
+;;        "["
+;;        '(:eval (propertize "%m" 'face 'font-lock-string-face
+;; 			   'help-echo buffer-file-coding-system))
+;;        "] "
        
         
-       "[" ;; insert vs overwrite mode, input-method in a tooltip
-       '(:eval (propertize (if overwrite-mode "Ovr" "Ins")
-			   'face 'font-lock-preprocessor-face
-			   'help-echo (concat "Buffer is in "
-					      (if overwrite-mode "overwrite" "insert") " mode")))
+;;        "[" ;; insert vs overwrite mode, input-method in a tooltip
+;;        '(:eval (propertize (if overwrite-mode "Ovr" "Ins")
+;; 			   'face 'font-lock-preprocessor-face
+;; 			   'help-echo (concat "Buffer is in "
+;; 					      (if overwrite-mode "overwrite" "insert") " mode")))
        
-       ;; was this buffer modified since the last save?
-       '(:eval (when (buffer-modified-p)
-		 (concat ","  (propertize "Mod"
-					  'face 'font-lock-warning-face
-					  'help-echo "Buffer has been modified"))))
+;;        ;; was this buffer modified since the last save?
+;;        '(:eval (when (buffer-modified-p)
+;; 		 (concat ","  (propertize "Mod"
+;; 					  'face 'font-lock-warning-face
+;; 					  'help-echo "Buffer has been modified"))))
        
-       ;; is this buffer read-only?
-       '(:eval (when buffer-read-only
-		 (concat ","  (propertize "RO"
-					  'face 'font-lock-type-face
-					  'help-echo "Buffer is read-only"))))  
-       "] "
+;;        ;; is this buffer read-only?
+;;        '(:eval (when buffer-read-only
+;; 		 (concat ","  (propertize "RO"
+;; 					  'face 'font-lock-type-face
+;; 					  'help-echo "Buffer is read-only"))))  
+;;        "] "
 
-       ;; add the time, with the date and the emacs uptime in the tooltip
-       '(:eval (propertize (format-time-string "%H:%M")
-			   'help-echo
-			   (concat (format-time-string "%c; ")
-				   (emacs-uptime "Uptime:%hh"))))
-       ;;" --"
-       ;; i don't want to see minor-modes; but if you want, uncomment this:
-       ;; minor-mode-alist  ;; list of minor modes
-       ;;"%-" ;; fill with '-'
-       ))
-
-
+;;        ;; add the time, with the date and the emacs uptime in the tooltip
+;;        '(:eval (propertize (format-time-string "%H:%M")
+;; 			   'help-echo
+;; 			   (concat (format-time-string "%c; ")
+;; 				   (emacs-uptime "Uptime:%hh"))))
+;;        ;;" --"
+;;        ;; i don't want to see minor-modes; but if you want, uncomment this:
+;;        ;; minor-mode-alist  ;; list of minor modes
+;;        ;;"%-" ;; fill with '-'
+;;        ))
 
 
+(setq-default mode-line-format
+ '(; Position, including warning for 80 columns
+   (:propertize "%4l:" face mode-line-position-face)
+   (:eval (propertize "%3c" 'face
+                      (if (>= (current-column) 80)
+                          'mode-line-80col-face
+                        'mode-line-position-face)))
+   ; emacsclient [default -- keep?]
+   mode-line-client
+   "  "
+   ; read-only or modified status
+   (:eval
+    (cond (buffer-read-only
+           (propertize "  R/O  " 'face 'mode-line-read-only-face))
+          ((buffer-modified-p)
+           (propertize "  ***  " 'face 'mode-line-modified-face))
+          (t "       ")))
+   "    "
+   ; directory and buffer/file name
+   (:propertize (:eval (shorten-directory default-directory 30))
+                face mode-line-folder-face)
+   (:propertize "%b"
+                face mode-line-filename-face)
+   ; narrow [default -- keep?]
+   " %n "
+   ; mode indicators: vc, recursive edit, major mode, minor modes, process, global
+   ;; relative position, size of file
+   " ["
+   (:propertize "%p" 'face 'font-lock-constant-face) ;; % above top
+   "/"
+   (:propertize "%I" 'face 'font-lock-constant-face) ;; size
+   "] "
+
+   (vc-mode vc-mode)
+   " %["
+   (:propertize mode-name
+                face mode-line-mode-face)
+   "%]  "
+   (:eval (propertize (if overwrite-mode "Ovr" "Ins")
+					  'face 'font-lock-preprocessor-face
+					  'help-echo (concat "Buffer is in "
+										 (if overwrite-mode "overwrite" "insert") " mode")))
+   (:propertize mode-line-process
+                face mode-line-process-face)
+   ;;(global-mode-string global-mode-string)
+   "  "
+   (:eval (propertize (format-time-string "%H:%M")
+					   'help-echo
+					   (concat (format-time-string "%c; ")
+							   (emacs-uptime "Uptime:%hh"))))
+   ))  
+ 
+;; Helper function
+(defun shorten-directory (dir max-length)
+  "Show up to `max-length' characters of a directory name `dir'."
+  (let ((path (reverse (split-string (abbreviate-file-name dir) "/")))
+        (output ""))
+    (when (and path (equal "" (car path)))
+      (setq path (cdr path)))
+    (while (and path (< (length output) (- max-length 4)))
+      (setq output (concat (car path) "/" output))
+      (setq path (cdr path)))
+    (when path
+      (setq output (concat ".../" output)))
+    output))
+
+;; Extra mode line faces
+(make-face 'mode-line-read-only-face)
+(make-face 'mode-line-modified-face)
+(make-face 'mode-line-folder-face)
+(make-face 'mode-line-filename-face)
+(make-face 'mode-line-position-face)
+(make-face 'mode-line-mode-face)
+(make-face 'mode-line-minor-mode-face)
+(make-face 'mode-line-process-face)
+(make-face 'mode-line-80col-face)
+ 
+(set-face-attribute 'mode-line nil
+    :foreground "gray60"
+	:background "gray30"
+    :inverse-video nil
+    :box '(:line-width 1 :color "gray30" :style nil))
+
+(set-face-attribute 'mode-line-inactive nil
+    :foreground "gray80"
+	:background "gray20"
+    :inverse-video nil
+    :box '(:line-width 1 :color "gray20" :style nil))
+
+(set-face-attribute 'mode-line-read-only-face nil
+    :inherit 'mode-line-face
+    :foreground "#4271ae"
+    :box '(:line-width 1 :color "#4271ae"))
+(set-face-attribute 'mode-line-modified-face nil
+    :inherit 'mode-line-face
+    :foreground "orange red" 
+    :background "gray30"
+    :box nil ;'(:line-width 1 :color "#c82829")
+)
+(set-face-attribute 'mode-line-folder-face nil
+    :inherit 'mode-line-face
+    :foreground "gray60")
+(set-face-attribute 'mode-line-filename-face nil
+    :inherit 'mode-line-face
+    :foreground "#eab700"
+    :weight 'bold)
+(set-face-attribute 'mode-line-position-face nil
+    :inherit 'mode-line-face
+    :foreground "DodgerBlue1"
+	:bold t
+    :family "Monospace" :height 80)
+(set-face-attribute 'mode-line-mode-face nil
+    :inherit 'mode-line-face
+    :foreground "gray80")
+(set-face-attribute 'mode-line-minor-mode-face nil
+    :inherit 'mode-line-mode-face
+    :foreground "gray40"
+    :height 110)
+(set-face-attribute 'mode-line-process-face nil
+    :inherit 'mode-line-face
+    :foreground "#718c00")
+(set-face-attribute 'mode-line-80col-face nil
+    :inherit 'mode-line-position-face
+    :foreground "black" :background "#eab700")
