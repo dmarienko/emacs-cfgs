@@ -38,6 +38,7 @@
 (desktop-save-mode t)
 (recentf-mode 1)
 (setq bm-highlight-style 'bm-highlight-only-fringe)
+(set-fringe-mode '(1 . 0))
 ;;(setq bm-cycle-all-buffers t)
 
 (setq redisplay-dont-pause t
@@ -68,7 +69,8 @@
 (global-set-key "\C-z" 'undo)
 (global-set-key [(f10)] 'kill-emacs)
 (global-set-key [(f2)] 'save-buffer)
-(global-set-key [(f3)] 'sr-speedbar-toggle)
+;(global-set-key [(f3)] 'sr-speedbar-toggle)
+(global-set-key [(f3)] 'ecb-activate)
 (global-set-key [(C-f11)] 'linum-mode)
 (global-set-key [home] 'smart-beginning-of-line)
 (global-set-key [(C-tab)] 'bs-show)
@@ -123,12 +125,14 @@
 (color-theme-dark-mde)
 
 (custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
+  ;; custom-set-variables was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
  '(display-time-mode t)
+ '(ecb-layout-window-sizes nil)
+ '(ecb-options-version "2.32")
  '(global-hl-line-mode t)
  '(hl-line-sticky-flag t)
  '(scroll-bar-mode nil)
@@ -143,15 +147,11 @@
  '(sr-speedbar-width-x 50)
  '(tool-bar-mode nil))
 (custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil 
-						 :strike-through nil :overline nil :underline nil 
-						 :slant normal :width normal :height 90 :foundry "unknown" :family "DejaVu Sans Mono"))))
- '(ac-candidate-face ((t (:background "gray30" :foreground "gray80"))))
- '(linum ((t (:inherit (shadow default) :foreground "gray40" :height 80)))))
+  ;; custom-set-faces was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+ '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :width normal :height 90 :foundry "unknown" :family "DejaVu Sans Mono")))))
 
 
 (require 'auto-complete-config)
@@ -181,3 +181,28 @@
 (add-to-list 'load-path "~/.emacs.d/my/expand-region.el-master")
 (require 'expand-region)
 (global-set-key (kbd "M-v") 'er/expand-region)
+
+;; nrepl
+(require 'nrepl)
+(add-hook 'nrepl-interaction-mode-hook
+		  'nrepl-turn-on-eldoc-mode)
+(setq nrepl-hide-special-buffers t)
+(setq nrepl-popup-stacktraces nil)
+(setq nrepl-popup-stacktraces-in-repl t)
+(add-to-list 'same-window-buffer-names "*nrepl*")
+(add-hook 'nrepl-mode-hook 'paredit-mode)
+(add-hook 'nrepl-mode-hook 'rainbow-delimiters-mode)
+;; (eval-after-load 'nrepl
+;;   '(define-key clojure-mode-map [(C-return)] 'lisp-eval-last-sexp))
+(define-key clojure-mode-map [(C-return)] 'lisp-eval-last-sexp)
+
+;; Here the R related stuff
+(load "~/.emacs.d/my/ess-12.09-2/lisp/ess-site")
+(require 'ess-site)
+(setq comint-input-ring-size 1000)
+(setq ess-indent-level 4)
+(setq ess-arg-function-offset 4)
+(setq ess-else-offset 4)
+;; (eval-after-load 'ess 
+;;   '(define-key ess-mode-map [(C-return)] 'ess-eval-region-or-function-or-paragraph-and-step))
+(define-key ess-mode-map [(C-return)] 'ess-eval-region-or-function-or-paragraph-and-step)
