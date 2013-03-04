@@ -1,0 +1,8 @@
+#!/bin/sh
+id=`date +%Y-%m-%d`;
+name=$1$id.tgz
+tar cvzf $name $1
+mount /mnt/flash
+#mv -v $name /root/tmp/Write
+mv -v $name /mnt/flash/linux/toHome
+

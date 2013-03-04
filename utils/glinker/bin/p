@@ -1,0 +1,6 @@
+#!/bin/sh
+
+pm=`echo $1 | cut -d\: -f1`
+p=`$GLINKER/bin/getp $pm`
+
+pushd $p

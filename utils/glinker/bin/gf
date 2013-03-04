@@ -1,0 +1,4 @@
+#!/bin/sh
+
+p=`cat $GLINKER/etc/flag`
+cd $p

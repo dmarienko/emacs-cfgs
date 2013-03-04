@@ -1,0 +1,26 @@
+#!/usr/bin/perl
+
+$p=$ENV{GLINKER};
+$_=`pwd`;
+chomp;
+$ap = $_; #$ARGV[0];
+$fname = "$p/etc/links";
+$add = 1;
+
+if($ARGV[0]){ 
+	$ap="$ap\%$ARGV[0]";
+}
+
+open(F,"<$fname") or die("Can't open $fname: $!\n");
+open(F1,">$fname.1") or die("Can't open $fname: $!\n");
+while(<F>){
+  chomp;
+  if($ap eq $_){ $add=0; }
+  print F1 "$_\n";
+}
+close(F);
+
+if($add){ print F1 "$ap\n";}
+
+close(F1);
+`mv $fname.1 $fname`

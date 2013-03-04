@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+
+$p=$ENV{GLINKER};
+$i = $ARGV[0];
+$fname = "$p/etc/links";
+open(F,$fname) or die("Can't open $fname: $!\n");
+while(<F>){
+  chomp;
+  $n = $_;
+  if($i==0){
+    print "$n\n";
+	exit();
+  }
+  $i--;
+}

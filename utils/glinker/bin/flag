@@ -1,0 +1,4 @@
+#!/bin/sh
+
+p=`pwd`
+echo $p > $GLINKER/etc/flag

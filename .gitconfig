@@ -1,0 +1,11 @@
+[user]
+	name = dima
+	email = dmitry.ema@gmail.com
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --graph --full-history --date=local --all --color --pretty=tformat:"%x1b[31;1m%h%x09%x1b[32m%d%x1b[0m%x20%s%x20%x1b[33m(%an%x20%ad)%x1b[0m"
+  type = cat-file -t
+  dump = cat-file -p

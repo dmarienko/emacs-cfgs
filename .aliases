@@ -1,0 +1,131 @@
+export GLINKER=/usr/local/glinker
+alias g='. $GLINKER/bin/g'
+alias gf='. $GLINKER/bin/gf'
+alias flag='$GLINKER/bin/flag'
+alias lg='$GLINKER/bin/lg'
+alias ag='$GLINKER/bin/ag'
+alias rg='$GLINKER/bin/rg'
+alias p='. $GLINKER/bin/p'
+alias ec='emacsclient'
+alias em='emacs -nw'
+alias Z='sudo'
+alias -s jar='java -jar'
+alias sapt='sudo aptitude'
+alias jcat='jad -p -nonlb'
+alias CP='sudo cp'
+alias psj='ps -Ao pid,comm,args | grep java | grep -v netbeans | grep -v grep'
+alias mlab='/usr/local/MATLAB/R2012a/bin/matlab -nodesktop -nosplash'
+alias matlab='/usr/local/MATLAB/R2012a/bin/matlab -desktop -nosplash'
+alias search='find . -type f -print0 | xargs -0 egrep -I '
+alias we='sublime'
+
+# -= (Git) =-
+alias gs='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit'
+alias gd='git diff'
+alias go='git checkout '
+alias gk='gitk --all&'
+alias gx='gitx --all'
+alias got='git '
+alias get='git '
+
+
+
+#_g_comp(){
+##	local cur prev lgout
+#	COMPREPLY=()
+#	cur=${COMP_WORDS[COMP_CWORD]}
+#    prev=${COMP_WORDS[COMP_CWORD-1]}
+#	#cur=`lg -nof`
+ #	#COMPREPLY=( $( compgen -W `lg -nof` -- $cur  ) )
+#	lgout=`lg -nof`
+ #	COMPREPLY=( $( compgen -W '$lgout' -- $cur  ) )
+#}
+
+
+##
+# Some usefull completions
+#
+zstyle ':completion:*' menu yes select
+#zstyle ':completion:*:*:cd:*' menu yes select
+bindkey '^[^I' menu-complete
+
+zstyle ':completion:*:*:em:*' file-patterns \
+ 	   '*.(j|c|h|cpp|cc|java|cxx|S|s|asm|il|st|py|pl|CC):files' '*(-/):directories'
+
+ListGotos() {
+ reply=(`$GLINKER/bin/lg -nof`)
+}
+compctl -K ListGotos g
+compctl -K ListGotos p
+compctl -K ListGotos rg
+
+## Colors
+zstyle ':completion:*:*:em:*' list-colors '*.c=01;32:*.h=01;33:*.java=01;35:*.j=01;35:*.st=01;33'
+
+# Ignore CVS directories (zshwiki)
+zstyle ':completion:*:cd:*' ignored-patterns '(*/)#CVS'
+
+# Emacs like embedded editor
+bindkey -e
+
+# Load misc things (zshwiki)
+autoload -U incremental-complete-word
+autoload -U insert-files
+zle -N insert-files
+
+bindkey "^f" insert-files
+bindkey '^[O2R' dev_ls
+bindkey '^[OR' order_ls
+
+#bindkey '^[y'   yank-pop
+bindkey '^[e'   yank
+
+bindkey '^[ '   set-mark-command
+
+anti_exec(){ chmod a-x * }
+zle -N anti_exec 
+bindkey '^[*'  anti_exec
+
+setopt NO_hup
+setopt list_types
+#setopt overstrike
+
+# lg3d need it
+#export OSTYPE=linux
+#export PATH=$PATH:/usr/java/bin
+#export PRJ_ROOT=/home/dima/Development/java/RemoteHost
+export PRJ_ROOT=/home/dima/Development/repositories-svn/S3/S3/RuntimeQNX/
+
+export PATH=$PATH:$PRJ_ROOT/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PRJ_ROOT/lib
+
+#export SILVER_TARGET=Linux
+#. /etc/profile
+#source ~/s3_linux
+#export IVE_HOME=$QNX_HOST/usr/qde/eclipse/jre/
+
+zstyle ':completion:*:*:vml:*' list-colors '*.tic=01;32'
+zstyle ':completion:*:*:vml:*' file-patterns  '*.tic:files'
+zstyle ':completion:*:*:dtic:*' list-colors '*.tic=01;32'
+zstyle ':completion:*:*:dtic:*' file-patterns  '*.tic:files'
+
+sudo_exec(){ 
+ zle .beginning-of-line
+ zle -U "sudo "
+}
+zle -N sudo_exec 
+bindkey '^[&'  sudo_exec
+
+
+
+GREP_OPTIONS='--color=auto'
+export GREP_OPTIONS GREP_COLORGREP_COLOR='1;33'
+
+#export http_proxy=http://192.168.0.40:8080
+#export ftp_proxy=ftp://192.168.0.40:8080
+#export https_proxy=http://192.168.0.40:443
+
+export DERBY_HOME=/usr/local/db-derby
