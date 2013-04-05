@@ -1,0 +1,15 @@
+;; Object my/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "my/"
+  :tables (list 
+   (semanticdb-table "myfuncs.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("comment-or-uncomment-region-or-line" function (:user-visible-flag t) nil [67 418]) ("smart-beginning-of-line" function nil nil [438 592]) ("kill-current-buffer" function nil nil [594 673]) ("global-set-key" code nil nil [674 725]) ("win-resize-top-or-bot" function nil nil [794 1162]) ("win-resize-left-or-right" function nil nil [1165 1534]) ("win-resize-enlarge-horiz" function nil nil [1537 1805]) ("win-resize-minimize-horiz" function nil nil [1807 2082]) ("win-resize-enlarge-vert" function nil nil [2085 2399]) ("win-resize-minimize-vert" function nil nil [2402 2709]) ("global-set-key" code nil nil [2711 2764]) ("global-set-key" code nil nil [2765 2815]) ("global-set-key" code nil nil [2816 2870]) ("global-set-key" code nil nil [2871 2925]) ("global-set-key" code nil nil [2926 2977]) ("global-set-key" code nil nil [2978 3032]) ("global-set-key" code nil nil [3033 3085]) ("global-set-key" code nil nil [3086 3140]))
+    :file "myfuncs.el"
+    :pointmax 3142
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

@@ -39,6 +39,8 @@
 (recentf-mode 1)
 (setq bm-highlight-style 'bm-highlight-only-fringe)
 (set-fringe-mode '(1 . 0))
+(setq x-select-enable-clipboard t)
+(setq ecb-tip-of-the-day nil)
 ;;(setq bm-cycle-all-buffers t)
 
 (setq redisplay-dont-pause t
@@ -190,11 +192,10 @@
 (setq nrepl-popup-stacktraces nil)
 (setq nrepl-popup-stacktraces-in-repl t)
 (add-to-list 'same-window-buffer-names "*nrepl*")
-(add-hook 'nrepl-mode-hook 'paredit-mode)
+;; (add-hook 'nrepl-mode-hook 'paredit-mode)
 (add-hook 'nrepl-mode-hook 'rainbow-delimiters-mode)
-;; (eval-after-load 'nrepl
-;;   '(define-key clojure-mode-map [(C-return)] 'lisp-eval-last-sexp))
-(define-key clojure-mode-map [(C-return)] 'lisp-eval-last-sexp)
+;(eval-after-load 'nrepl
+(define-key clojure-mode-map [(C-return)] 'nrepl-eval-last-expression)
 
 ;; Here the R related stuff
 (load "~/.emacs.d/my/ess-12.09-2/lisp/ess-site")
@@ -203,6 +204,5 @@
 (setq ess-indent-level 4)
 (setq ess-arg-function-offset 4)
 (setq ess-else-offset 4)
-;; (eval-after-load 'ess 
-;;   '(define-key ess-mode-map [(C-return)] 'ess-eval-region-or-function-or-paragraph-and-step))
-(define-key ess-mode-map [(C-return)] 'ess-eval-region-or-function-or-paragraph-and-step)
+(setq ess-eval-visibly-p nil) ;otherwise C-c C-r (eval region) takes forever
+(setq ess-ask-for-ess-directory nil) ;otherwise you are prompted each time you start an interactive R session
