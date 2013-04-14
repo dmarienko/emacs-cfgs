@@ -107,3 +107,9 @@
 (use-local-map (make-sparse-keymap))
 (global-set-key "\M-f" ctl-x-map)
 (global-set-key "\M-f\M-f" 'iwb)
+
+; remap of up key in shell mode
+(defun remap-up-key-in-shell ()
+  (local-set-key (kbd "<up>") 'comint-previous-input))
+
+(add-hook 'shell-mode-hook 'remap-up-key-in-shell)
