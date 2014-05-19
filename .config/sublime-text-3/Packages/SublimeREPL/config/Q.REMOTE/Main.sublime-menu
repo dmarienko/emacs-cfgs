@@ -1,0 +1,29 @@
+[
+     {
+        "id": "tools",
+        "children":
+        [{
+            "caption": "SublimeREPL",
+            "mnemonic": "r",
+            "id": "SublimeREPL",
+            "children":
+            [
+                {"command": "repl_open",
+                 "caption": "Q.REMOTE",
+                 "id": "repl_q",
+                 "mnemonic": "q",
+                 "args": {
+                    "type": "subprocess",
+                    "encoding": "utf8",
+                    "cmd": ["ssh", "MRT1@Idata", "cd /cygdrive/d/jwizards && /cygdrive/c/q/w32/q.exe"],
+                    "cwd": "$file_path",
+                    "external_id": "q",
+                    "additional_scopes": ["Q"],
+                    "syntax": "Packages/User/Q.tmLanguage",
+                    "extend_env": {"INSIDE_EMACS": "1"}
+                    }
+                }
+            ]
+        }]
+    }
+]

@@ -1,0 +1,26 @@
+{
+	"always_show_minimap_viewport": true,
+	"auto_complete": false,
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/User/Monokai Soda.tmTheme",
+	"dictionary": "Packages/Language - English/en_US.dic",
+	"font_face": "Ubuntu Mono",
+    "font_size": 14,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Jedi - Python autocompletion",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal"
+	],
+	"margin": 1,
+	"preview_on_click": false,
+	"scroll_past_end": false,
+	"soda_folder_icons": true,
+	"theme": "Soda Dark 3.sublime-theme",
+	"word_wrap": false
+}

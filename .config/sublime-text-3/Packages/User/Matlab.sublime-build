@@ -1,0 +1,5 @@
+{
+    "cmd": ["/usr/local/MATLAB/R2013a/bin/matlab", "-nosplash", "<$file_name"],
+    //"cmd": ["xterm", "-e", "/usr/local/MATLAB/R2013a/bin/matlab", "-nosplash", "-nodesktop", "-r", "run $file_name; quit;"],
+    "selector": "source.m"
+}
