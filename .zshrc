@@ -93,7 +93,6 @@ setopt                       \
      NO_glob_assign          \
         glob_complete        \
      NO_glob_dots            \
-        glob_subst           \
         hash_cmds            \
         hash_dirs            \
         hash_list_all        \
@@ -301,17 +300,17 @@ zshrc_load_status 'completion system'
 
 # {{{ Set up new advanced completion system
 
-if [[ "$ZSH_VERSION_TYPE" == 'new' ]]; then
+#if [[ "$ZSH_VERSION_TYPE" == 'new' ]]; then
   autoload -U compinit
   compinit -C # don't perform security check
-else
-  print "\nAdvanced completion system not found; ignoring zstyle settings."
-  function zstyle { }
-  function compdef { }
+#else
+#  print "\nAdvanced completion system not found; ignoring zstyle settings."
+#  function zstyle { }
+#  function compdef { }
 
   # an antiquated, barebones completion system is better than nowt
-  which zmodload >&/dev/null && zmodload zsh/compctl
-fi
+#  which zmodload >&/dev/null && zmodload zsh/compctl
+#fi
 
 # }}}
 # {{{ General completion technique
@@ -644,7 +643,7 @@ alias txzf='tar xzf'
 alias txjf='tar xjf'
 alias tczf='tar czf' 
 alias pd='pushd'
-alias tohome='/root/bin/tohome' 
+#alias tohome='/root/bin/tohome' 
 
 . ~/.aliases
 
@@ -1069,6 +1068,3 @@ which check_hist_size >&/dev/null && check_hist_size
 bindkey '^[e' yank
 bindkey "^X\\" expand-cmd-path
 bindkey '^I' menu-expand-or-complete
-
-#TZ='Europe/Kiev'; export TZ
-
