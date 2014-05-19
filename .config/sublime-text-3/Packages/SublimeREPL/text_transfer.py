@@ -41,7 +41,7 @@ def q_sender(repl, text, view=None):
     """
         Q multiline fix (idea from http://ktrader.blogspot.com/2010/10/require-comint-defgroup-q-nil-major.html)
     """
-    mt = re.sub("/ .*\n", "", text)             # remove / comments
+    mt = re.sub("/ .*", "", text)               # remove / comments
     mt = re.sub("([\n;)])[ \t]*/.*", "\\1", mt) # /comments
     mt = re.sub("\n[ \t]+", " ", mt)            # fold functions
     mt = re.sub("([:;)])[ \t]+", "\\1", mt)     # excess white spaces
