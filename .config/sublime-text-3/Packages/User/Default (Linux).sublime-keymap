@@ -115,6 +115,20 @@
 		}
 	},
 	{
+		"keys": ["alt+x","5"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 0.6, 1.0],
+			"cells":
+			[
+				[0, 0, 1, 1], [1, 0, 2, 1],
+				[0, 1, 2, 2]
+			]
+		}
+	},
+	{
 		"keys": ["alt+x","@"],
 		"command": "set_layout",
 		"args":
@@ -158,13 +172,30 @@
 	{ "keys": ["ctrl+x","&"], "command": "move_to_group", "args": { "group": 6 } },
 	{ "keys": ["ctrl+x","*"], "command": "move_to_group", "args": { "group": 7 } },
 
+	// ----------------- Origami -----------------
+	{ "keys": ["alt+up"], "command": "travel_to_pane", "args": {"direction": "up"} },
+	{ "keys": ["alt+right"], "command": "travel_to_pane", "args": {"direction": "right"} },
+	{ "keys": ["alt+down"], "command": "travel_to_pane", "args": {"direction": "down"} },
+	{ "keys": ["alt+left"], "command": "travel_to_pane", "args": {"direction": "left"} },
+
+	{ "keys": ["alt+x", "alt+up"], "command": "create_pane", "args": {"direction": "up"} },
+	{ "keys": ["alt+x", "alt+right"], "command": "create_pane", "args": {"direction": "right"} },
+	{ "keys": ["alt+x", "alt+down"], "command": "create_pane", "args": {"direction": "down"} },
+	{ "keys": ["alt+x", "alt+left"], "command": "create_pane", "args": {"direction": "left"} },
+	{ "keys": ["alt+x", "q"], "command": "destroy_pane", "args": {"direction": "self"} },
+
+	{ "keys": ["alt+x", "alt+z"], "command": "zoom_pane", "args": {"fraction": 0.9} },
+	{ "keys": ["alt+x", "z"], "command": "unzoom_pane", "args": {} },
+	// ----------------- Origami -----------------
+
+	
 	// repl eval
 	{ "keys": ["shift+enter"], "command": "repl_transfer_current", "args": {"scope": "selection"}},
 	// { "keys": ["ctrl+enter"], "command": "repl_transfer_current", "args": {"scope": "selection", "action":"view_write"}},
 	{ "keys": ["ctrl+shift+enter"], "command": "repl_transfer_current", "args": {"scope": "file"}},
 	// { "keys": ["shift+ctrl+,", "f"], "command": "repl_transfer_current", "args": {"scope": "file", "action":"view_write"}},
 	{ "keys": ["ctrl+enter"], "command": "repl_transfer_current", "args": {"scope": "lines"}},
-	{ "keys": ["shift+ctrl+,", "l"], "command": "repl_transfer_current", "args": {"scope": "lines", "action":"view_write"}},
+	//{ "keys": ["shift+ctrl+,", "l"], "command": "repl_transfer_current", "args": {"scope": "lines", "action":"view_write"}},
 	{ "keys": ["ctrl+,", "b"], "command": "repl_transfer_current", "args": {"scope": "block"}},
 	{ "keys": ["shift+ctrl+,", "b"], "command": "repl_transfer_current", "args": {"scope": "block", "action":"view_write"}}
 
