@@ -19,7 +19,7 @@
                     "cwd": "$file_path",
                     "external_id": "q",
                     "additional_scopes": ["Q"],
-                    "syntax": "Packages/User/Q.tmLanguage",
+                    "syntax": "Packages/User/console.tmLanguage",
                     "extend_env": {"INSIDE_EMACS": "1"}
                     }
                 }

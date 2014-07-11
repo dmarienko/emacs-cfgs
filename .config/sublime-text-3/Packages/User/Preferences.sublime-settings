@@ -1,15 +1,15 @@
 {
 	"always_show_minimap_viewport": true,
 	"auto_complete": false,
-	"auto_complete_commit_on_tab": true,
+	"auto_complete_commit_on_tab": false,
 	"bold_folder_labels": true,
 	"caret_extra_width": 1,
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/User/Idea.tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"find_selected_text": true,
-	"font_face": "Ubuntu Mono",
-	"font_size": 14,
+	"font_face": "MonacoB2",
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -18,7 +18,7 @@
 		"Jedi - Python autocompletion"
 	],
 	"inactive_panes_dim_color": "#303030",
-	"inactive_panes_dim_strength": 0.3,
+	"inactive_panes_dim_strength": 0.2,
 	"indent_guide_options":
 	[
 		"draw_normal"
@@ -32,7 +32,7 @@
 	],
 	"index_files": false,
 	"margin": 1,
-	"origami_auto_close_empty_panes": true,
+	"origami_auto_close_empty_panes": false,
 	"preview_on_click": false,
 	"scroll_past_end": false,
 	"shift_tab_unindent": true,

@@ -16,9 +16,9 @@
                     "type": "subprocess",
                     "encoding": "utf8",
                     "cmd": ["/usr/local/MATLAB/R2013a/bin/matlab", "-nodesktop","-nosplash"],
-                    "cwd": "$file_path",
+                    "cwd": "/home/dima/",
                     "external_id": "matlab",
-                    "syntax": "Packages/Matlab/Matlab.tmLanguage"
+                    "syntax": "Packages/User/MatlabREPL.tmLanguage"
                     }
                 }
             ]

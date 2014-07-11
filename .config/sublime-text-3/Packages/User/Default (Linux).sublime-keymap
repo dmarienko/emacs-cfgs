@@ -28,6 +28,9 @@
 		]
 	},
 
+	{ "keys": ["ctrl+/"], "command": "auto_complete" },
+	{ "keys": ["ctrl+down"], "command": "auto_complete" },
+
 	{ "keys": ["alt+x", "alt+v"], "command": "expand_selection", "args": {"to": "scope"} },
 	{ "keys": ["alt+v"], "command": "expand_selection", "args": {"to": "word"} },
 
@@ -188,6 +191,8 @@
 	{ "keys": ["alt+x", "z"], "command": "unzoom_pane", "args": {} },
 	// ----------------- Origami -----------------
 
+	// ----------------- Recent files -----------------
+	{ "keys": ["ctrl+e"], "command": "recent_active_files" },
 	
 	// repl eval
 	{ "keys": ["shift+enter"], "command": "repl_transfer_current", "args": {"scope": "selection"}},
