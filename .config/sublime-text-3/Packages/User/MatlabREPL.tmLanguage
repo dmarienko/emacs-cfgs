@@ -462,10 +462,6 @@
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>#variable_invalid</string>
-				</dict>
-				<dict>
-					<key>include</key>
 					<string>#number</string>
 				</dict>
 				<dict>
@@ -1173,15 +1169,6 @@
 			<string>\b[a-zA-Z]\w*\b</string>
 			<key>name</key>
 			<string>meta.variable.other.valid.matlab</string>
-		</dict>
-		<key>variable_invalid</key>
-		<dict>
-			<key>comment</key>
-			<string>No variables or function names can start with a number or an underscore.</string>
-			<key>match</key>
-			<string>\b(_\w|\d+[_a-df-zA-DF-Z])\w*\b</string>
-			<key>name</key>
-			<string>invalid.illegal.invalid-variable-name.matlab</string>
 		</dict>
 	</dict>
 	<key>scopeName</key>
