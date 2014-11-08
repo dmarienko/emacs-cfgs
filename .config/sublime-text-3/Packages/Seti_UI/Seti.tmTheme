@@ -34,9 +34,9 @@ General
                     <string>#2B3337</string>
 
                     <key>selection</key>
-                    <string>#0C84B4</string>
+                    <string>#00658D</string>
                     <key>selectionForeground</key>
-                    <string>#d7d7d7</string>
+                    <string>#d3d3d3</string>
 
                     <key>bracketContentsOptions</key>
                     <string>underline</string>

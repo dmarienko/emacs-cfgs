@@ -140,6 +140,7 @@
     {
         "class": "tab_label",
         "fade": true,
+        "font.bold": false,
         "fg": [170,170,170]
     },
     {
@@ -150,6 +151,7 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["selected"]}],
+        "font.bold": true,
         "fg": [223,225,232]
     },
 
@@ -752,7 +754,8 @@
 
     {
         "class": "quick_panel",
-        "row_padding": 16,
+        "row_padding": 10,
+
         "layer0.tint": [16,17,18],
         "layer0.opacity": 1,
         "dark_content": true
