@@ -8,7 +8,7 @@
 		"spell_check": false,
 		"indent_subsequent_lines": false,
 		"detect_indentation": false,
-		"auto_complete": true,
+		"auto_complete": false,
 		"line_numbers": false,
 		"gutter": true
 	}

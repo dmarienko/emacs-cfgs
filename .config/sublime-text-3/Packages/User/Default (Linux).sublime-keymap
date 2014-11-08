@@ -64,7 +64,7 @@
 	{ "keys": ["ctrl+-"], "command": "fold" },
 	{ "keys": ["ctrl+="], "command": "unfold" },
 
-	// my plugin 
+	// my plugin
 	{ "keys": ["alt+shift+1"], "command": "show_in_tree"},
 	{ "keys": ["ctrl+1"], "command": "open_tree"},
 
@@ -187,13 +187,21 @@
 	{ "keys": ["alt+x", "alt+left"], "command": "create_pane", "args": {"direction": "left"} },
 	{ "keys": ["alt+x", "q"], "command": "destroy_pane", "args": {"direction": "self"} },
 
+	{ "keys": ["alt+x", "ctrl+left"], "command": "destroy_pane", "args": {"direction": "left"} },
+	{ "keys": ["alt+x", "ctrl+right"], "command": "destroy_pane", "args": {"direction": "right"} },
+	{ "keys": ["alt+x", "ctrl+up"], "command": "destroy_pane", "args": {"direction": "up"} },
+	{ "keys": ["alt+x", "ctrl+down"], "command": "destroy_pane", "args": {"direction": "down"} },
+
 	{ "keys": ["alt+x", "alt+z"], "command": "zoom_pane", "args": {"fraction": 0.9} },
 	{ "keys": ["alt+x", "z"], "command": "unzoom_pane", "args": {} },
+
+	{ "keys": ["alt+x", "alt+c"], "command": "resize_pane", "args": {"orientation": "cols"} },
+	{ "keys": ["alt+x", "alt+r"], "command": "resize_pane", "args": {"orientation": "rows"} },
 	// ----------------- Origami -----------------
 
 	// ----------------- Recent files -----------------
 	{ "keys": ["ctrl+e"], "command": "recent_active_files" },
-	
+
 	// repl eval
 	{ "keys": ["shift+enter"], "command": "repl_transfer_current", "args": {"scope": "selection"}},
 	// { "keys": ["ctrl+enter"], "command": "repl_transfer_current", "args": {"scope": "selection", "action":"view_write"}},
@@ -201,7 +209,8 @@
 	// { "keys": ["shift+ctrl+,", "f"], "command": "repl_transfer_current", "args": {"scope": "file", "action":"view_write"}},
 	{ "keys": ["ctrl+enter"], "command": "repl_transfer_current", "args": {"scope": "lines"}},
 	//{ "keys": ["shift+ctrl+,", "l"], "command": "repl_transfer_current", "args": {"scope": "lines", "action":"view_write"}},
-	{ "keys": ["ctrl+,", "b"], "command": "repl_transfer_current", "args": {"scope": "block"}},
-	{ "keys": ["shift+ctrl+,", "b"], "command": "repl_transfer_current", "args": {"scope": "block", "action":"view_write"}}
+	// { "keys": ["ctrl+alt+enter"], "command": "repl_transfer_current", "args": {"scope": "block"}},
+	{ "keys": ["ctrl+alt+enter"], "command": "repl_transfer_current", "args": {"scope": "block", "action":"view_write"}}
 
+	,{ "keys": ["ctrl+1"],  "command": "dired",  "args": { "immediate": true, "single_pane":true }}
 ]

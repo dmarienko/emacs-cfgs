@@ -1,0 +1,27 @@
+[
+     {
+        "id": "tools",
+        "children":
+        [{
+            "caption": "SublimeREPL",
+            "mnemonic": "r",
+            "id": "SublimeREPL",
+            "children":
+            [
+                {"command": "repl_open",
+                 "caption": "Matlab.REMOTE",
+                 "id": "repl_matlab",
+                 "mnemonic": "m",
+                 "args": {
+                    "type": "subprocess",
+                    "encoding": "utf8",
+                    "cmd": ["ssh", "linux1@Ldata", "/usr/local/MATLAB/bin/matlab", "-nodesktop","-nosplash"],
+                    "cwd": "/home/linux1/",
+                    "external_id": "matlab",
+                    "syntax": "Packages/User/MatlabREPL.tmLanguage"
+                    }
+                }
+            ]
+        }]
+    }
+]

@@ -1,0 +1,3750 @@
+{
+	"folder_history":
+	[
+		"/home/dima/Development/iQt/iqt/trunk/core/t2-api/src/main/java/com/jwizards/iqt/timeseries",
+		"/home/dima/Development/iQt/research/matlab",
+		"/home/dima/Development/iQt/research/maple"
+	],
+	"last_version": 3065,
+	"last_window_id": 32,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"prns",
+						"prnsigs	prnsigs(sigs)"
+					],
+					[
+						"ben",
+						"benchmark"
+					],
+					[
+						"ez",
+						"ezcontour	ezcontour(...,n)"
+					],
+					[
+						"fla",
+						"flattenPriceData"
+					],
+					[
+						"xla",
+						"xlabel	xlabel('string')"
+					],
+					[
+						"max",
+						"maximal"
+					],
+					[
+						"corrc",
+						"corrcoef	corrcoef(x,y)"
+					],
+					[
+						"return",
+						"returns"
+					],
+					[
+						"opt",
+						"optimget	optimget(options,'param')"
+					],
+					[
+						"inters",
+						"intersect	intersect(A,B)"
+					],
+					[
+						"getf",
+						"getfields"
+					],
+					[
+						"isv",
+						"isvector	isvector(A)"
+					],
+					[
+						"matr",
+						"matrix"
+					],
+					[
+						"mat2",
+						"mat2cell	mat2cell(A,rowDist)"
+					],
+					[
+						"realz",
+						"realzdcomm"
+					],
+					[
+						"vari",
+						"variable"
+					],
+					[
+						"db",
+						"dbquit	dbquit"
+					],
+					[
+						"use",
+						"useNanosecs"
+					],
+					[
+						"stru",
+						"struct	struct([])"
+					],
+					[
+						"obj",
+						"objFun"
+					],
+					[
+						"num",
+						"num2cell	num2cell(A)"
+					],
+					[
+						"cell",
+						"cellstr	cellstr(A)"
+					],
+					[
+						"issor",
+						"issorted	issorted(A)"
+					],
+					[
+						"addp",
+						"addpath	addpath folderName1 folderName2 folderName3 ... -flag"
+					],
+					[
+						"ret",
+						"return	return"
+					],
+					[
+						"MA",
+						"MATLAB70"
+					],
+					[
+						"utm",
+						"utmt"
+					],
+					[
+						"10",
+						"10957"
+					],
+					[
+						"MAT",
+						"MATLAB70"
+					],
+					[
+						"in",
+						"include"
+					],
+					[
+						"java",
+						"javaclasspath	javaclasspath('-dynamic')"
+					],
+					[
+						"ts",
+						"tsmean"
+					],
+					[
+						"prnsi",
+						"prnsigs	prnsigs(sigs,format)"
+					],
+					[
+						"read",
+						"readtable"
+					],
+					[
+						"symb",
+						"symbs"
+					],
+					[
+						"nee",
+						"needPlot"
+					],
+					[
+						"narg",
+						"nargin	nargin"
+					],
+					[
+						"leg",
+						"legend	legend(h,M)"
+					],
+					[
+						"prnsig",
+						"prnsigs	prnsigs(sigs,format)"
+					],
+					[
+						"str2",
+						"str2num	str2num('str')"
+					],
+					[
+						"uniq",
+						"unique	unique(A)"
+					],
+					[
+						"Pa",
+						"pairs"
+					],
+					[
+						"date",
+						"datestr	datestr(DateTime, FieldSpecOut)"
+					],
+					[
+						"dbste",
+						"dbstep	dbstep in"
+					],
+					[
+						"select",
+						"selectPairs"
+					],
+					[
+						"strcmp",
+						"strcmpi	strcmpi(cellstr,cellstr)"
+					],
+					[
+						"sub",
+						"sublime"
+					],
+					[
+						"mes",
+						"mesh	mesh(X,Y,Z)"
+					],
+					[
+						"fmin",
+						"fminsearch	fminsearch(...)"
+					],
+					[
+						"rat",
+						"rat	rat(X)"
+					],
+					[
+						"cl",
+						"clc	clc"
+					],
+					[
+						"eva",
+						"evalc	evalc(S)"
+					],
+					[
+						"symbo",
+						"symbolsAll"
+					],
+					[
+						"dbstat",
+						"dbstatus	dbstatus"
+					],
+					[
+						"prn",
+						"prnsigs	prnsigs(sigs,format)"
+					],
+					[
+						"logf",
+						"lognfit	lognfit(data,alpha)"
+					],
+					[
+						"unid",
+						"unidrnd	unidrnd(N,m,n,...)"
+					],
+					[
+						"bin",
+						"binornd	binornd(N,P)"
+					],
+					[
+						"pau",
+						"pause	pause(n)"
+					],
+					[
+						"nar",
+						"nargin	nargin"
+					],
+					[
+						"who",
+						"whos	whos(location)"
+					],
+					[
+						"ex",
+						"exit	exit"
+					],
+					[
+						"lon",
+						"longPeriod"
+					],
+					[
+						"tru",
+						"true	true"
+					],
+					[
+						"SPR",
+						"SPRD"
+					],
+					[
+						"toEl",
+						"toEliminate"
+					],
+					[
+						"exc",
+						"exch"
+					],
+					[
+						"up",
+						"upper	upper('str')"
+					],
+					[
+						"nin",
+						"nargin	nargin"
+					],
+					[
+						"wa",
+						"warning	warning(state, mode)"
+					],
+					[
+						"addpa",
+						"addpath	addpath(...)"
+					],
+					[
+						"trad",
+						"trades"
+					],
+					[
+						"cached",
+						"cachedTrades"
+					],
+					[
+						"all",
+						"allDates"
+					],
+					[
+						"fet",
+						"fetchbbo"
+					],
+					[
+						"fpri",
+						"fprintf	fprintf(obj,'cmd')"
+					],
+					[
+						"f",
+						"find	find(X, ...)"
+					],
+					[
+						"fp",
+						"fplot	fplot(fun,lims,...)"
+					],
+					[
+						"d",
+						"dir	dir"
+					],
+					[
+						"do",
+						"doc	doc functionName"
+					],
+					[
+						"fpr",
+						"fprintf	fprintf(formatSpec,A1,...,An)"
+					],
+					[
+						"end",
+						"end	end(A,k,n)"
+					],
+					[
+						"qit",
+						"quit	quit force"
+					],
+					[
+						"l",
+						"loader"
+					],
+					[
+						"0n",
+						"0n"
+					],
+					[
+						"data",
+						"data1"
+					],
+					[
+						"E",
+						"Exception  (class)"
+					],
+					[
+						"In",
+						"IntradayDynamic"
+					],
+					[
+						"xS",
+						"xSection.live.XSectionLive_2014_03_27.txt.csv"
+					],
+					[
+						"pa",
+						"parselog.py"
+					],
+					[
+						"ru",
+						"%run"
+					],
+					[
+						"using",
+						"unsigned"
+					],
+					[
+						"pri",
+						"print"
+					],
+					[
+						"li",
+						"list	comprehension"
+					],
+					[
+						"lin",
+						"linspace"
+					],
+					[
+						"re",
+						"reverse	function"
+					],
+					[
+						"MAX",
+						"MAX_OPEN_POSITIONS"
+					],
+					[
+						"v",
+						"value"
+					],
+					[
+						"BYU",
+						"BUYNIG_POWER"
+					],
+					[
+						"functio",
+						"functions	functions(funhandle)"
+					],
+					[
+						"val",
+						"values	values(mapObj)"
+					],
+					[
+						"value",
+						"values	values(mapObj)"
+					],
+					[
+						"isempt",
+						"isempty	isempty(A)"
+					],
+					[
+						"coo",
+						"cookies"
+					],
+					[
+						"rese",
+						"research"
+					],
+					[
+						"iQ",
+						"iQt"
+					],
+					[
+						"ho",
+						"home	home"
+					],
+					[
+						"pw",
+						"pwd	pwd"
+					],
+					[
+						"bsxf",
+						"bsxfun	bsxfun(fun,A,B)"
+					],
+					[
+						"ss",
+						"ss_ejcp0"
+					],
+					[
+						"cu",
+						"np.cumsum"
+					],
+					[
+						"py",
+						"matplotlib.pyplot"
+					],
+					[
+						"ma",
+						"matplotlib"
+					],
+					[
+						"mat",
+						"matplotlib"
+					],
+					[
+						"nump",
+						"numpy"
+					],
+					[
+						"impo",
+						"import"
+					],
+					[
+						"rand",
+						"rand	rand(q)"
+					],
+					[
+						"Ma",
+						"Matlab"
+					],
+					[
+						"he",
+						"help	help"
+					],
+					[
+						"ls",
+						"ls	ls"
+					],
+					[
+						"Da",
+						"DateUtils"
+					],
+					[
+						"fun",
+						"func	small function"
+					],
+					[
+						"func",
+						"functions	functions(funhandle)"
+					],
+					[
+						"ra",
+						"randn	 (IPython)"
+					],
+					[
+						"calc",
+						"calculateMaxDD"
+					],
+					[
+						"inputData",
+						"inputData_USDCAD"
+					],
+					[
+						"fl",
+						"false"
+					]
+				]
+			},
+			"build_system": "Packages/Makefile/Make.sublime-build",
+			"command_palette":
+			{
+				"height": 375.0,
+				"selected_items":
+				[
+					[
+						"key",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"setting",
+						"Preferences: Settings - User"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"repl mat",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"matla",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"clear",
+						"Bookmarks: Clear All"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"syntax: ha",
+						"Set Syntax: Haskell"
+					],
+					[
+						"sett",
+						"Preferences: Settings - User"
+					],
+					[
+						"up",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"setti",
+						"Preferences: Settings - User"
+					],
+					[
+						"keybi",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"pack",
+						"Package Control: Remove Package"
+					],
+					[
+						"g",
+						"Glue - Launch"
+					],
+					[
+						"gl",
+						"Glue - Launch"
+					],
+					[
+						"repl sh",
+						"SublimeREPL: Shell"
+					],
+					[
+						"Q",
+						"SublimeREPL: Q"
+					],
+					[
+						"malt",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"q",
+						"SublimeREPL: Q"
+					],
+					[
+						"matlab",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"matl",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"mat",
+						"Set Syntax: MATLAB"
+					],
+					[
+						"repl Q",
+						"SublimeREPL: Q"
+					],
+					[
+						" matlab",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"mata",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"mt",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"repl",
+						"SublimeREPL: Q"
+					],
+					[
+						"mtl",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"clea",
+						"Bookmarks: Clear All"
+					],
+					[
+						"repl ma",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"repl q",
+						"SublimeREPL: Q"
+					],
+					[
+						"repl ",
+						"SublimeREPL: Q"
+					],
+					[
+						"cl",
+						"Bookmarks: Clear All"
+					],
+					[
+						"cle",
+						"Bookmarks: Clear All"
+					],
+					[
+						"ma",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"re ",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"repl m",
+						"SublimeREPL: Matlab"
+					],
+					[
+						" repl",
+						"SublimeREPL: Q"
+					],
+					[
+						"rep",
+						"SublimeREPL: Q"
+					],
+					[
+						"repl q.r",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl matl",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"repl q.re",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl M",
+						"SublimeREPL: Matlab.REMOTE"
+					],
+					[
+						"replq",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl Q.r",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl Q.",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"erpl mat",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"replma",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"package ins",
+						"Package Control: Install Package"
+					],
+					[
+						"repl q.tre",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"Defa",
+						"Preferences: Key Bindings - Default"
+					],
+					[
+						"repl Q.re",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"REPL",
+						"SublimeREPL: Q"
+					],
+					[
+						"REPL q",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl q.",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"replq.re",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"replqre",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl q .",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl q re",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"def",
+						"Preferences: Key Bindings - Default"
+					],
+					[
+						"user ",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"repl q .r",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"replq.r",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl re",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"rep q re",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl rem",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"rep re",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"remo",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"replre",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"re",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"replq.t",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl q r",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl qre",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl q e",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"user",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"replq ",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"replq r",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl qr",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl p",
+						"SublimeREPL: Python"
+					],
+					[
+						"defa",
+						"Preferences: Settings - Default"
+					],
+					[
+						"orig",
+						"Origami: Focus on Pane Below"
+					],
+					[
+						"repl r e",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"q remo",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"q re",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl remo",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"replM",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"RE",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"",
+						"About"
+					],
+					[
+						"REP",
+						"SublimeREPL: Q"
+					],
+					[
+						"packa",
+						"Package Control: Disable Package"
+					],
+					[
+						"package lis",
+						"Package Control: List Packages"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"Rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"ex",
+						"Extern REPL: send line"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"pac",
+						"Package Control: Disable Package"
+					],
+					[
+						"Open IJ",
+						"Sublime-IJulia: Open New IJulia Console"
+					],
+					[
+						"ope",
+						"View: Toggle Open Files in Side Bar"
+					],
+					[
+						"Open",
+						"Sublime-IJulia: Open New IJulia Console"
+					],
+					[
+						"Op",
+						"View: Toggle Open Files in Side Bar"
+					],
+					[
+						"open",
+						"Sublime-IJulia: Open New IJulia Console"
+					],
+					[
+						"Open ",
+						"Sublime-IJulia: Open New IJulia Console"
+					],
+					[
+						"IJ",
+						"Sublime-IJulia: Open New IJulia Console"
+					],
+					[
+						"IJU",
+						"Sublime-IJulia: Open New IJulia Console"
+					],
+					[
+						"pyth",
+						"SublimeREPL: Python"
+					],
+					[
+						"Sett",
+						"Preferences: Settings - Default"
+					],
+					[
+						"Pref",
+						"Preferences: Settings - User"
+					],
+					[
+						"Pac",
+						"Package Control: Remove Package"
+					],
+					[
+						"pref",
+						"Preferences: Settings - User"
+					],
+					[
+						"Proj",
+						"Project: Add Folder"
+					],
+					[
+						"Project",
+						"Project: Add Folder"
+					],
+					[
+						"ip",
+						"Open IPython Notebook"
+					],
+					[
+						"ipy",
+						"SublimeREPL: Python - IPython"
+					],
+					[
+						"shows",
+						"CTags: Show Symbols (all)"
+					],
+					[
+						"instl",
+						"Package Control: Install Package"
+					],
+					[
+						"MA",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"toggle m",
+						"View: Toggle Minimap"
+					],
+					[
+						"Ma",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Ins",
+						"Package Control: Install Package"
+					],
+					[
+						"HEX",
+						"Hex Viewer: Show Hex Edit Panel"
+					],
+					[
+						"IPy",
+						"SublimeREPL: Python - IPython"
+					],
+					[
+						"IP",
+						"SublimeREPL: Python - IPython"
+					],
+					[
+						"syntax py",
+						"Set Syntax: Python"
+					],
+					[
+						"ipython",
+						"SublimeREPL: Python - IPython"
+					],
+					[
+						"note",
+						"Open IPython Notebook"
+					]
+				],
+				"width": 435.0
+			},
+			"console":
+			{
+				"height": 351.0,
+				"history":
+				[
+					"os.environ['COLUMNS']",
+					"import os",
+					"os.environ['COLUMNS']",
+					"os.environ['COLUMNS'] = \"200\"",
+					"os.environ['COLUMNS'] = 200",
+					"os.environ['DISPLAY']",
+					"os.environ['COLUMNS']",
+					"os.environ",
+					"os.get_terminal_size()",
+					"os.ttyname(2)",
+					"os.ttyname(1)",
+					"os.ttyname()",
+					"os.ctermid()",
+					"import os",
+					"import subprocess",
+					"subprocess",
+					"def foo()",
+					"def foo() : ",
+					"def foo() 1",
+					"a",
+					"a=1",
+					"a+!",
+					"def aaa():",
+					"def aaa(): pass",
+					"def aaa(a): a",
+					"def aaa(a): a+1",
+					"def aaa(): 1",
+					"def getTerminalSize():",
+					"move_caret_top",
+					"IJulia.Kernel.zmq.zmq_ctx_new()",
+					"IJulia.Kernel.zmq.zmq_ctx_ctx_new()",
+					"IJulia.Kernel.zmq",
+					"IJulia",
+					"IJulia.zmq",
+					"IJulia.z,q",
+					"import IJulia",
+					"IJulia.zmq",
+					"zmq",
+					"zmq = cdll.LoadLibrary(\"/usr/lib/x86_64-linux-gnu/libzmq.so\")",
+					"from ctypes import *",
+					"zmq = cdll.LoadLibrary(\"/usr/lib/x86_64-linux-gnu/libzmq.so\")",
+					"zmq",
+					"zmq = cdll.LoadLibrary(\"/usr/lib/x86_64-linux-gnu/libzmq.so.1\")",
+					"zmq",
+					"zmq = cdll.LoadLibrary(\"/usr/lib/x86_64-linux-gnu/libzmq.so\")",
+					"from ctypes import *",
+					"IJulia.",
+					"IJulia.KernelManager.plugin_loaded()",
+					"import IJulia",
+					"view.run_command('show_in_tree')",
+					"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+					"exit",
+					"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/dima/Development/iQt/research/matlab/Galaxy/generateSignals.m",
+				"/home/dima/Development/iQt/research/matlab/Galaxy/GalaxyTest.m",
+				"/home/dima/Development/iQt/research/matlab/Galaxy/Model.m",
+				"/home/dima/Development/iQt/research/matlab/Galaxy/Idea.m",
+				"/home/dima/Development/iQt/research/matlab/Research.sublime-project",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/ClassicPairsTest.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/CointTest.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/KalmanTest.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/Notes.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/PairsFinder.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/RunSearch.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/SearchOnReadyCandidates.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/Signals.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/generateStdDevSignalsF.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/generateStdDevSignalsX.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/optimize2params.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/pairs.conf",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/pairs_2.conf",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/pairs_cand.csv",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/portfolio.csv",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/pshow.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/runBollinger.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/runBollingerJ.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/symbols.csv",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/visualizeResults.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/cached/D_3065015313.mat",
+				"/home/dima/.config/sublime-text-3/Packages/FileBrowser/dired.hidden-tmTheme",
+				"/home/dima/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+				"/home/dima/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/test/m/flatten_symbols.csv",
+				"/home/dima/.config/sublime-text-3/Packages/FileBrowser/dired.sublime-settings",
+				"/home/dima/.config/sublime-text-3/Packages/FileBrowser/Default.sublime-keymap",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/iqbacktest_test.m",
+				"/home/dima/Development/Matlab/Epchan/book2/cointegrationTests.m",
+				"/home/dima/Development/iQt/research/matlab/GMV/AdaptedPortfolio.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/tester/combineSignals.m",
+				"/home/dima/Development/iQt/research/matlab/GMV/iqbacktest.m",
+				"/home/dima/Sandbox/node-webkit-v0.10.0-linux-x64/nw.sh",
+				"/usr/local/MATLAB/R2013a/toolbox/iqt/tester/iqbacktest.m",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/iqbacktest.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/tester/iqtestm.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/tester/Position.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/charts/fig.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/Test.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/utils/smartmean.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/testBivarIntensityBias.m",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/sharpe.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/utils/flattenPriceData.m",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/Calculate.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/tester/maxdd.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-brokers/src/main/java/com/jwizards/iqt/brokers/PositionTracker.java",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/combineSignals.m",
+				"/home/dima/Sandbox/Frege/Euler93.fr",
+				"/home/dima/.cache/.fr-QF1BpT/fmxmit/music/mksongc.php",
+				"/home/dima/Development/iQt/research/matlab/GMV/movingGMV.m",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/compileSignals.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/futils.m",
+				"/home/dima/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
+				"/home/dima/.config/sublime-text-3/Packages/FuzzyFileNav/Default (Linux).sublime-keymap",
+				"/home/dima/Development/Matlab/Epchan/book2/AUDCAD_daily.m",
+				"/home/dima/Development/fixc/communicator/src/main/java/com/capital514/app/CommandsHandler.java",
+				"/home/dima/Development/fixc/communicator/igepics.txt",
+				"/home/dima/Development/iQt/research/matlab/GMV/GMV.m",
+				"/home/dima/Development/iQt/research/matlab/IntroductionDemo/CrossMA.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/analysisfcns/sma.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/analysisfcns/ema.m",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/BetaHedgingTest.m",
+				"/home/dima/.config/sublime-text-3/Packages/User/Glue.sublime-settings",
+				"/home/dima/.config/sublime-text-3/Packages/Glue/Glue.sublime-settings",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/tester/iqtestg.m",
+				"/home/dima/Development/iQt/research/matlab/GMV/selectPortfolio.m",
+				"/home/dima/.Mathematica/SystemFiles/FrontEnd/StyleSheets/DIMA2.nb",
+				"/home/dima/.Mathematica/SystemFiles/FrontEnd/StyleSheets/Dimad.nb",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/report.csv",
+				"/home/dima/Development/fixc/igepics.txt",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/testIntensityBias.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/hbivariatelikelihood.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/hawkes/inthawkesm.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/hlikelihood.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/tester/prnsigs.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/tester/iqtest.m",
+				"/home/dima/Development/iQt/research/matlab/hft/readid/idparser_tzone.q",
+				"/home/dima/Development/iQt/research/matlab/hft/readid/datatransform.q",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/data/account-summary-MRTTRADING1-20130320-2.csv",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/tester/cropSeries.m",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/flattenPriceData.m",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/flatSeries.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-instrument/src/main/resources/eoddata/NYSE.csv",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-instrument/src/main/resources/eoddata/NASDAQ.csv",
+				"/home/dima/Development/iQt/research/matlab/GMV/sigs.txt",
+				"/home/dima/Загрузки/example.pom",
+				"/home/dima/Development/iQt/research/matlab/X-Sectional/ModelTest.m",
+				"/home/dima/Development/iQt/research/matlab/GMV/PortfolioSelection.m",
+				"/home/dima/Development/iQt/research/matlab/GMV/common.csv",
+				"/home/dima/.cache/.fr-SmzG5l/514.conf",
+				"/home/dima/Development/iQt/research/matlab/MiscTests/movingGMV.m",
+				"/home/dima/Development/iQt/research/matlab/MiscTests/GVM.m",
+				"/home/dima/Development/iQt/research/matlab/X-Sectional/XSectionModel.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/dataraw.csv",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/datacorr.csv",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/testHighIntensivity.m",
+				"/usr/local/MATLAB/R2013a/toolbox/iqt/charts/timelabel.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/hawkint.m",
+				"/home/dima/Документы/Coursera/Math Methods In Math Finances/Week 1/index.html",
+				"/home/dima/Документы/Coursera/Math Methods In Math Finances/Week 1/playr.css",
+				"/home/dima/Документы/Coursera/Math Methods In Math Finances/Week 1/playr.js",
+				"/home/dima/Документы/Coursera/Math Methods In Math Finances/Week 1/videosub-0.9.9.js",
+				"/home/dima/Документы/Coursera/Math Methods In Math Finances/Week 1/style.css",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/hawkes/simhawkes1.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/testFirstOrderAtNewPriceLevel.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/axdrag.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/charts/axdrag.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/hawkes/showhawkesm.m",
+				"/home/dima/Development/iQt/research/matlab/hft/readid/test.q",
+				"/home/dima/Development/iQt/research/matlab/hft/readid/utils.q",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/*REPL* [matlab].matlab",
+				"/home/dima/Development/iQt/iqt/trunk/research/src/main/java/hawkes/HawkesSimplest.java",
+				"/home/dima/Development/fixc/fix-connectors/src/main/java/com/capital514/fxcm/connector/FxcmConnectionObject.java",
+				"/home/dima/.config/sublime-text-3/Packages/SublimeREPL/config/Q/Default.sublime-commands",
+				"/home/dima/.config/sublime-text-3/Packages/SublimeREPL/config/Q/Main.sublime-menu",
+				"/home/dima/Development/iQt/research/matlab/hft/readid/testFirstOrderAtNewPriceLevel.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/utils/join2matrix.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/iqtestg.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/tester/iqtest",
+				"/home/dima/Development/iQt/research/matlab/MarketMaking/alphaIndicator.m",
+				"/home/dima/.config/sublime-text-3/Packages/SublimeREPL/repls/subprocess_repl.py",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/import.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/import"
+			],
+			"find":
+			{
+				"height": 37.0
+			},
+			"find_in_files":
+			{
+				"height": 95.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"iq",
+					"ctrl\\+1",
+					"\\\"dired\\\"",
+					"ctrl\\+o",
+					"prc2",
+					"sigs2",
+					"pwd",
+					"intiDeposit",
+					"Subsect",
+					"DisplayF",
+					"\"Text\"",
+					"T=",
+					"wrkdydif",
+					"BAR",
+					"fieldName",
+					"BEAM",
+					"uPnl",
+					"ANSS",
+					"ABBV",
+					"ADBE",
+					"\\d+,\"(.+?)\",.*",
+					"\\d+,\"(.+?)\",",
+					"_cap",
+					"fontSize",
+					"markActiveAxes",
+					"action",
+					"bar",
+					"Collateral",
+					"Y",
+					"aprice",
+					"Pop",
+					"aIdxes",
+					"t2",
+					"bar",
+					"\n    ",
+					"bar",
+					"b0",
+					"sRow",
+					"utmtsp",
+					"Kk",
+					"typeq",
+					"case\\(([-]\\d*)\\)",
+					"case\\(([-]\\d*\\)",
+					"case\\(([-]\\d*\\))",
+					"case\\(",
+					"case\\([-]\\d\\)",
+					"case\\([-]\\d\\):",
+					"case\\([-]\\D\\):",
+					"case\\(-\\d\\)",
+					"case(-\\d)",
+					"init_sockaddr",
+					"plhs",
+					"analyze_string",
+					"if[",
+					"onMessa",
+					"\\ ",
+					"outdbdir",
+					"dbdir",
+					"unix2qTZ",
+					"minizipcmd",
+					"unix2q",
+					"13:23:24.257",
+					"basepath",
+					"lastpath",
+					"basepath",
+					"dbdir",
+					"hea",
+					"java",
+					"\n      ",
+					"java.lang.NullPointerException",
+					"13:37:",
+					"frac",
+					"\"",
+					"10:48:44",
+					"\",\\d+",
+					"(,\\d+,).*",
+					"(,\\d+,)",
+					",\\d+,",
+					"^\\n",
+					"\\n",
+					".*Closing.*",
+					".*Opening.*",
+					".*Open.*",
+					"LastTick",
+					"LastTradePrice",
+					"sprd_trade",
+					"upTick",
+					".Intensity",
+					"Intensity",
+					"downTick",
+					"LastTick",
+					"pips",
+					"downTick",
+					"DBASE",
+					"Save",
+					"\"Sa",
+					"\"&Save",
+					"\"Save",
+					"\"S",
+					"\"q\"",
+					"\"&V",
+					"\"&Wind",
+					"universe",
+					"convert\\(",
+					"Bar",
+					"Tick",
+					"TickFiel",
+					"TickFiek",
+					"convert",
+					"time",
+					"symidx",
+					"cnth",
+					"frac",
+					"CHEF",
+					"Z5",
+					"markerColor",
+					"lineColor",
+					"stkIdx",
+					"ETP",
+					" dd",
+					"dd",
+					"sh",
+					"sigs",
+					"variable_invalid",
+					"invalid.illegal.invalid-variable-name.matlab",
+					"variable_invalid",
+					"invalid",
+					"variable_assignment"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+					"$1",
+					"\n}",
+					"case $1",
+					"case $1:",
+					"\",\"",
+					"",
+					"\"",
+					"$1,",
+					"\\1,",
+					",",
+					"",
+					"cl",
+					"symbs",
+					"",
+					",",
+					"",
+					",",
+					"\\n",
+					"",
+					"$1.$2=$3",
+					"'$1'",
+					",\\n",
+					".",
+					",",
+					"$1,",
+					"",
+					"{$1,$2},",
+					".",
+					"$2,",
+					"",
+					"$1,",
+					"",
+					"$1,",
+					"",
+					"$1.$2,",
+					"$1,",
+					"$1",
+					".",
+					"",
+					"i",
+					"",
+					"\\\\",
+					"",
+					" ",
+					"price",
+					""
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": false
+			},
+			"incremental_find":
+			{
+				"height": 36.0
+			},
+			"input":
+			{
+				"height": 36.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 251.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.haskell_sublime_load":
+			{
+				"height": 138.0
+			},
+			"output.hex_viewer_inspector":
+			{
+				"height": 138.0
+			},
+			"replace":
+			{
+				"height": 66.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"op",
+						"hft/utils/cnv_open.m"
+					],
+					[
+						"adds",
+						"hft/utils/addSpread.m"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 125.0,
+				"selected_items":
+				[
+					[
+						"",
+						"kalman_model_2"
+					]
+				],
+				"width": 378.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 293.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"fun",
+						"func	small function"
+					],
+					[
+						"prog",
+						"progStep"
+					],
+					[
+						"stra",
+						"stratName"
+					],
+					[
+						"flatt",
+						"flattenPriceData"
+					],
+					[
+						"tr",
+						"true"
+					],
+					[
+						"prns",
+						"prnsigs	prnsigs(sigs)"
+					],
+					[
+						"ben",
+						"benchmark"
+					],
+					[
+						"ez",
+						"ezcontour	ezcontour(...,n)"
+					],
+					[
+						"fla",
+						"flattenPriceData"
+					],
+					[
+						"xla",
+						"xlabel	xlabel('string')"
+					],
+					[
+						"max",
+						"maximal"
+					],
+					[
+						"corrc",
+						"corrcoef	corrcoef(x,y)"
+					],
+					[
+						"return",
+						"returns"
+					],
+					[
+						"opt",
+						"optimget	optimget(options,'param')"
+					],
+					[
+						"inters",
+						"intersect	intersect(A,B)"
+					],
+					[
+						"getf",
+						"getfields"
+					],
+					[
+						"isv",
+						"isvector	isvector(A)"
+					],
+					[
+						"matr",
+						"matrix"
+					],
+					[
+						"mat2",
+						"mat2cell	mat2cell(A,rowDist)"
+					],
+					[
+						"realz",
+						"realzdcomm"
+					],
+					[
+						"vari",
+						"variable"
+					],
+					[
+						"db",
+						"dbquit	dbquit"
+					],
+					[
+						"use",
+						"useNanosecs"
+					],
+					[
+						"stru",
+						"struct	struct([])"
+					],
+					[
+						"obj",
+						"objFun"
+					],
+					[
+						"num",
+						"num2cell	num2cell(A)"
+					],
+					[
+						"cell",
+						"cellstr	cellstr(A)"
+					],
+					[
+						"issor",
+						"issorted	issorted(A)"
+					],
+					[
+						"addp",
+						"addpath	addpath folderName1 folderName2 folderName3 ... -flag"
+					],
+					[
+						"ret",
+						"return	return"
+					],
+					[
+						"MA",
+						"MATLAB70"
+					],
+					[
+						"utm",
+						"utmt"
+					],
+					[
+						"10",
+						"10957"
+					],
+					[
+						"MAT",
+						"MATLAB70"
+					],
+					[
+						"in",
+						"include"
+					],
+					[
+						"java",
+						"javaclasspath	javaclasspath('-dynamic')"
+					],
+					[
+						"ts",
+						"tsmean"
+					],
+					[
+						"prnsi",
+						"prnsigs	prnsigs(sigs,format)"
+					],
+					[
+						"read",
+						"readtable"
+					],
+					[
+						"symb",
+						"symbs"
+					],
+					[
+						"nee",
+						"needPlot"
+					],
+					[
+						"narg",
+						"nargin	nargin"
+					],
+					[
+						"leg",
+						"legend	legend(h,M)"
+					],
+					[
+						"prnsig",
+						"prnsigs	prnsigs(sigs,format)"
+					],
+					[
+						"str2",
+						"str2num	str2num('str')"
+					],
+					[
+						"uniq",
+						"unique	unique(A)"
+					],
+					[
+						"Pa",
+						"pairs"
+					],
+					[
+						"date",
+						"datestr	datestr(DateTime, FieldSpecOut)"
+					],
+					[
+						"dbste",
+						"dbstep	dbstep in"
+					],
+					[
+						"select",
+						"selectPairs"
+					],
+					[
+						"strcmp",
+						"strcmpi	strcmpi(cellstr,cellstr)"
+					],
+					[
+						"sub",
+						"sublime"
+					],
+					[
+						"mes",
+						"mesh	mesh(X,Y,Z)"
+					],
+					[
+						"fmin",
+						"fminsearch	fminsearch(...)"
+					],
+					[
+						"rat",
+						"rat	rat(X)"
+					],
+					[
+						"cl",
+						"clc	clc"
+					],
+					[
+						"eva",
+						"evalc	evalc(S)"
+					],
+					[
+						"symbo",
+						"symbolsAll"
+					],
+					[
+						"dbstat",
+						"dbstatus	dbstatus"
+					],
+					[
+						"prn",
+						"prnsigs	prnsigs(sigs,format)"
+					],
+					[
+						"logf",
+						"lognfit	lognfit(data,alpha)"
+					],
+					[
+						"unid",
+						"unidrnd	unidrnd(N,m,n,...)"
+					],
+					[
+						"bin",
+						"binornd	binornd(N,P)"
+					],
+					[
+						"pau",
+						"pause	pause(n)"
+					],
+					[
+						"nar",
+						"nargin	nargin"
+					],
+					[
+						"who",
+						"whos	whos(location)"
+					],
+					[
+						"ex",
+						"exit	exit"
+					],
+					[
+						"lon",
+						"longPeriod"
+					],
+					[
+						"tru",
+						"true	true"
+					],
+					[
+						"SPR",
+						"SPRD"
+					],
+					[
+						"toEl",
+						"toEliminate"
+					],
+					[
+						"exc",
+						"exch"
+					],
+					[
+						"up",
+						"upper	upper('str')"
+					],
+					[
+						"nin",
+						"nargin	nargin"
+					],
+					[
+						"wa",
+						"warning	warning(state, mode)"
+					],
+					[
+						"addpa",
+						"addpath	addpath(...)"
+					],
+					[
+						"trad",
+						"trades"
+					],
+					[
+						"cached",
+						"cachedTrades"
+					],
+					[
+						"all",
+						"allDates"
+					],
+					[
+						"fet",
+						"fetchbbo"
+					],
+					[
+						"fpri",
+						"fprintf	fprintf(obj,'cmd')"
+					],
+					[
+						"f",
+						"find	find(X, ...)"
+					],
+					[
+						"fp",
+						"fplot	fplot(fun,lims,...)"
+					],
+					[
+						"d",
+						"dir	dir"
+					],
+					[
+						"do",
+						"doc	doc functionName"
+					],
+					[
+						"fpr",
+						"fprintf	fprintf(formatSpec,A1,...,An)"
+					],
+					[
+						"end",
+						"end	end(A,k,n)"
+					],
+					[
+						"qit",
+						"quit	quit force"
+					],
+					[
+						"l",
+						"loader"
+					],
+					[
+						"0n",
+						"0n"
+					],
+					[
+						"data",
+						"data1"
+					],
+					[
+						"E",
+						"Exception  (class)"
+					],
+					[
+						"In",
+						"IntradayDynamic"
+					],
+					[
+						"xS",
+						"xSection.live.XSectionLive_2014_03_27.txt.csv"
+					],
+					[
+						"pa",
+						"parselog.py"
+					],
+					[
+						"ru",
+						"%run"
+					],
+					[
+						"using",
+						"unsigned"
+					],
+					[
+						"pri",
+						"print"
+					],
+					[
+						"li",
+						"list	comprehension"
+					],
+					[
+						"lin",
+						"linspace"
+					],
+					[
+						"re",
+						"reverse	function"
+					],
+					[
+						"MAX",
+						"MAX_OPEN_POSITIONS"
+					],
+					[
+						"v",
+						"value"
+					],
+					[
+						"BYU",
+						"BUYNIG_POWER"
+					],
+					[
+						"functio",
+						"functions	functions(funhandle)"
+					],
+					[
+						"val",
+						"values	values(mapObj)"
+					],
+					[
+						"value",
+						"values	values(mapObj)"
+					],
+					[
+						"isempt",
+						"isempty	isempty(A)"
+					],
+					[
+						"coo",
+						"cookies"
+					],
+					[
+						"rese",
+						"research"
+					],
+					[
+						"iQ",
+						"iQt"
+					],
+					[
+						"ho",
+						"home	home"
+					],
+					[
+						"pw",
+						"pwd	pwd"
+					],
+					[
+						"bsxf",
+						"bsxfun	bsxfun(fun,A,B)"
+					],
+					[
+						"ss",
+						"ss_ejcp0"
+					],
+					[
+						"cu",
+						"np.cumsum"
+					],
+					[
+						"py",
+						"matplotlib.pyplot"
+					],
+					[
+						"ma",
+						"matplotlib"
+					],
+					[
+						"mat",
+						"matplotlib"
+					],
+					[
+						"nump",
+						"numpy"
+					],
+					[
+						"impo",
+						"import"
+					],
+					[
+						"rand",
+						"rand	rand(q)"
+					],
+					[
+						"Ma",
+						"Matlab"
+					],
+					[
+						"he",
+						"help	help"
+					],
+					[
+						"ls",
+						"ls	ls"
+					],
+					[
+						"Da",
+						"DateUtils"
+					],
+					[
+						"func",
+						"functions	functions(funhandle)"
+					],
+					[
+						"ra",
+						"randn	 (IPython)"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "GMV/GMV.m",
+					"settings":
+					{
+						"buffer_size": 1555,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "Galaxy/GalaxyTest.m",
+					"settings":
+					{
+						"buffer_size": 1321,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "ClassicPairs/ClassicPairsTest.m",
+					"settings":
+					{
+						"buffer_size": 1697,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "Package Control Messages\n========================\n\nSeti_UI:\n-------\n\n  # Install\n  ---------------\n  \n  Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Preferences -> Settings - User` in Sublime Text or get `Schemr` & `Themr` by [Ben Weier](https://github.com/benweier).\n  \n  \n  > Example\n  ```\n  {\n    \"theme\": \"Seti.sublime-theme\",\n    \"color_scheme\": \"Packages/Seti_UI/Seti.tmTheme\",\n    \"caret_extra_width\": 2 // to have a wider/thicker caret\n  }\n  ```\n  \n  - copy the (fold.png) \"or edit it if you want\" to (Packages/Theme - Default) to override the _focken default yellow icon.\n  \n  \n  - for better recognition of files types, its recommended to install [Apply​Syntax](https://sublime.wbond.net/packages/ApplySyntax) by facelessuser.\n  \n  ## Folder Contents\n  ----------------------\n  \n  +Res\n  \n    |-Ext         > copy the content of this folder to your 'Packages/User' folder so (Extensions/Files) can recognize their correct language/icons.\n  \n    |-File_Types  > are for testing the icons with, if you don't need it you can simply remove it.\n  \n    |-Not_Working > are icon setting files for some files which i don't currently have any '?-syntax.tmlanguage' for, so again if you don't need any of them you can remove it as well.\n  \n",
+					"settings":
+					{
+						"buffer_size": 1315,
+						"line_ending": "Unix",
+						"name": "Package Control Messages",
+						"scratch": true
+					}
+				},
+				{
+					"file": "Hedging/Hedge.m",
+					"settings":
+					{
+						"buffer_size": 1864,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dima/.config/sublime-text-3/Packages/Seti_UI/Seti.tmTheme",
+					"settings":
+					{
+						"buffer_size": 63664,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dima/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 1076,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/usr/local/MATLAB/R2013a/toolbox/iqt/tester/plotBacktest.m",
+					"settings":
+					{
+						"buffer_size": 4769,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "> \n>> exit\nSaving workspace ...\n\n***Repl Closed***\n",
+					"settings":
+					{
+						"buffer_size": 51,
+						"line_ending": "Unix",
+						"name": "*REPL* [matlab]",
+						"read_only": true,
+						"scratch": true
+					}
+				},
+				{
+					"file": "hft/readid/limedata.q",
+					"settings":
+					{
+						"buffer_size": 2154,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "LivePnL/livedataparse.q",
+					"settings":
+					{
+						"buffer_size": 1114,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "hft/readid/limeparser.q",
+					"settings":
+					{
+						"buffer_size": 2832,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "hft/readid/test.q",
+					"settings":
+					{
+						"buffer_size": 5361,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dima/Development/q/start/Adverbs.q",
+					"settings":
+					{
+						"buffer_size": 4395,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "/home/dima/.config/sublime-text-3/Packages/Seti_UI/\n———————————————————————————————————————————————————\n⠤\n▸ +res/\n▸ icons/\n▸ Main/\n▸ messages/\n≡ .no-sublime-package\n≡ fold.png\n≡ icon_apache.tmPreferences\n≡ icon_blade.tmPreferences\n≡ icon_c#.tmPreferences\n≡ icon_c++.tmPreferences\n≡ icon_c.tmPreferences\n≡ icon_coffee.tmPreferences\n≡ icon_css.tmPreferences\n≡ icon_go.tmPreferences\n≡ icon_html.tmPreferences\n≡ icon_img.tmPreferences\n≡ icon_jade.tmPreferences\n≡ icon_java.tmPreferences\n≡ icon_js.tmPreferences\n≡ icon_json.tmPreferences\n≡ icon_less.tmPreferences\n≡ icon_md.tmPreferences\n≡ icon_mustache.tmPreferences\n≡ icon_php.tmPreferences\n≡ icon_python.tmPreferences\n≡ icon_rails.tmPreferences\n≡ icon_ruby.tmPreferences\n≡ icon_rust.tmPreferences\n≡ icon_sass.tmPreferences\n≡ icon_scss.tmPreferences\n≡ icon_slim.tmPreferences\n≡ icon_stylus.tmPreferences\n≡ messages.json\n≡ package-metadata.json\n≡ README.md\n≡ screenshot-1.jpg\n≡ screenshot-2.jpg\n≡ Seti.sublime-theme\n≡ Seti.tmTheme\n≡ Seti_monokai.tmTheme\n≡ Seti_orig.tmTheme",
+					"settings":
+					{
+						"buffer_size": 1019,
+						"line_ending": "Unix",
+						"name": "𝌆 Seti_UI",
+						"read_only": true,
+						"scratch": true
+					}
+				}
+			],
+			"build_system": "Packages/Makefile/Make.sublime-build",
+			"command_palette":
+			{
+				"height": 400.0,
+				"selected_items":
+				[
+					[
+						"matla",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"setti",
+						"Preferences: Settings - User"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"matl",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"matlab",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"colo",
+						"Tweak Colorcode to current color scheme"
+					],
+					[
+						"color",
+						"Toggle Colorcode on this view"
+					],
+					[
+						"Colo",
+						"Tweak Colorcode to current color scheme"
+					],
+					[
+						"colorco",
+						"Toggle Colorcode on this view"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"pac",
+						"Package Control: Remove Package"
+					],
+					[
+						"sett",
+						"Preferences: Settings - User"
+					],
+					[
+						"setting",
+						"Preferences: Settings - User"
+					],
+					[
+						"repl mat",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"clear",
+						"Bookmarks: Clear All"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"syntax: ha",
+						"Set Syntax: Haskell"
+					],
+					[
+						"up",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"keybi",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"pack",
+						"Package Control: Remove Package"
+					],
+					[
+						"g",
+						"Glue - Launch"
+					],
+					[
+						"gl",
+						"Glue - Launch"
+					],
+					[
+						"repl sh",
+						"SublimeREPL: Shell"
+					],
+					[
+						"Q",
+						"SublimeREPL: Q"
+					],
+					[
+						"malt",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"q",
+						"SublimeREPL: Q"
+					],
+					[
+						"mat",
+						"Set Syntax: MATLAB"
+					],
+					[
+						"repl Q",
+						"SublimeREPL: Q"
+					],
+					[
+						" matlab",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"mata",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"mt",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"repl",
+						"SublimeREPL: Q"
+					],
+					[
+						"mtl",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"clea",
+						"Bookmarks: Clear All"
+					],
+					[
+						"repl ma",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"repl q",
+						"SublimeREPL: Q"
+					],
+					[
+						"repl ",
+						"SublimeREPL: Q"
+					],
+					[
+						"cl",
+						"Bookmarks: Clear All"
+					],
+					[
+						"cle",
+						"Bookmarks: Clear All"
+					],
+					[
+						"ma",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"re ",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"repl m",
+						"SublimeREPL: Matlab"
+					],
+					[
+						" repl",
+						"SublimeREPL: Q"
+					],
+					[
+						"rep",
+						"SublimeREPL: Q"
+					],
+					[
+						"repl q.r",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl matl",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"repl q.re",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl M",
+						"SublimeREPL: Matlab.REMOTE"
+					],
+					[
+						"replq",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl Q.r",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl Q.",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"erpl mat",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"replma",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"package ins",
+						"Package Control: Install Package"
+					],
+					[
+						"repl q.tre",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"Defa",
+						"Preferences: Key Bindings - Default"
+					],
+					[
+						"repl Q.re",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"REPL",
+						"SublimeREPL: Q"
+					],
+					[
+						"REPL q",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl q.",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"replq.re",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"replqre",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl q .",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl q re",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"def",
+						"Preferences: Key Bindings - Default"
+					],
+					[
+						"user ",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"repl q .r",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"replq.r",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl re",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"rep q re",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl rem",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"rep re",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"remo",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"replre",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"re",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"replq.t",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl q r",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl qre",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl q e",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"user",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"replq ",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"replq r",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl qr",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl p",
+						"SublimeREPL: Python"
+					],
+					[
+						"defa",
+						"Preferences: Settings - Default"
+					],
+					[
+						"orig",
+						"Origami: Focus on Pane Below"
+					],
+					[
+						"repl r e",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"q remo",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"q re",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"repl remo",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"replM",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"RE",
+						"SublimeREPL: Q.REMOTE"
+					],
+					[
+						"",
+						"About"
+					],
+					[
+						"REP",
+						"SublimeREPL: Q"
+					],
+					[
+						"packa",
+						"Package Control: Disable Package"
+					],
+					[
+						"package lis",
+						"Package Control: List Packages"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					],
+					[
+						"Rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"ex",
+						"Extern REPL: send line"
+					],
+					[
+						"Open IJ",
+						"Sublime-IJulia: Open New IJulia Console"
+					],
+					[
+						"ope",
+						"View: Toggle Open Files in Side Bar"
+					],
+					[
+						"Open",
+						"Sublime-IJulia: Open New IJulia Console"
+					],
+					[
+						"Op",
+						"View: Toggle Open Files in Side Bar"
+					],
+					[
+						"open",
+						"Sublime-IJulia: Open New IJulia Console"
+					],
+					[
+						"Open ",
+						"Sublime-IJulia: Open New IJulia Console"
+					],
+					[
+						"IJ",
+						"Sublime-IJulia: Open New IJulia Console"
+					],
+					[
+						"IJU",
+						"Sublime-IJulia: Open New IJulia Console"
+					],
+					[
+						"pyth",
+						"SublimeREPL: Python"
+					],
+					[
+						"Sett",
+						"Preferences: Settings - Default"
+					],
+					[
+						"Pref",
+						"Preferences: Settings - User"
+					],
+					[
+						"Pac",
+						"Package Control: Remove Package"
+					],
+					[
+						"pref",
+						"Preferences: Settings - User"
+					],
+					[
+						"Proj",
+						"Project: Add Folder"
+					],
+					[
+						"Project",
+						"Project: Add Folder"
+					],
+					[
+						"ip",
+						"Open IPython Notebook"
+					],
+					[
+						"ipy",
+						"SublimeREPL: Python - IPython"
+					],
+					[
+						"shows",
+						"CTags: Show Symbols (all)"
+					],
+					[
+						"instl",
+						"Package Control: Install Package"
+					],
+					[
+						"MA",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"toggle m",
+						"View: Toggle Minimap"
+					],
+					[
+						"Ma",
+						"SublimeREPL: Matlab"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Ins",
+						"Package Control: Install Package"
+					],
+					[
+						"HEX",
+						"Hex Viewer: Show Hex Edit Panel"
+					],
+					[
+						"IPy",
+						"SublimeREPL: Python - IPython"
+					]
+				],
+				"width": 457.0
+			},
+			"console":
+			{
+				"height": 351.0,
+				"history":
+				[
+					"os.environ['COLUMNS']",
+					"import os",
+					"os.environ['COLUMNS']",
+					"os.environ['COLUMNS'] = \"200\"",
+					"os.environ['COLUMNS'] = 200",
+					"os.environ['DISPLAY']",
+					"os.environ['COLUMNS']",
+					"os.environ",
+					"os.get_terminal_size()",
+					"os.ttyname(2)",
+					"os.ttyname(1)",
+					"os.ttyname()",
+					"os.ctermid()",
+					"import os",
+					"import subprocess",
+					"subprocess",
+					"def foo()",
+					"def foo() : ",
+					"def foo() 1",
+					"a",
+					"a=1",
+					"a+!",
+					"def aaa():",
+					"def aaa(): pass",
+					"def aaa(a): a",
+					"def aaa(a): a+1",
+					"def aaa(): 1",
+					"def getTerminalSize():",
+					"move_caret_top",
+					"IJulia.Kernel.zmq.zmq_ctx_new()",
+					"IJulia.Kernel.zmq.zmq_ctx_ctx_new()",
+					"IJulia.Kernel.zmq",
+					"IJulia",
+					"IJulia.zmq",
+					"IJulia.z,q",
+					"import IJulia",
+					"IJulia.zmq",
+					"zmq",
+					"zmq = cdll.LoadLibrary(\"/usr/lib/x86_64-linux-gnu/libzmq.so\")",
+					"from ctypes import *",
+					"zmq = cdll.LoadLibrary(\"/usr/lib/x86_64-linux-gnu/libzmq.so\")",
+					"zmq",
+					"zmq = cdll.LoadLibrary(\"/usr/lib/x86_64-linux-gnu/libzmq.so.1\")",
+					"zmq",
+					"zmq = cdll.LoadLibrary(\"/usr/lib/x86_64-linux-gnu/libzmq.so\")",
+					"from ctypes import *",
+					"IJulia.",
+					"IJulia.KernelManager.plugin_loaded()",
+					"import IJulia",
+					"view.run_command('show_in_tree')",
+					"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+					"exit",
+					"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/dima/Development/iQt/research/matlab",
+				"/home/dima/Development/iQt/research/matlab/X-Sectional"
+			],
+			"file_history":
+			[
+				"/home/dima/.config/sublime-text-3/Packages/Seti_UI/Seti.sublime-theme",
+				"/home/dima/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/pairs.csv",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/PairsFinder.m",
+				"/home/dima/Development/iQt/research/matlab/pts/pts_allocate.m",
+				"/home/dima/Development/iQt/research/matlab/MeanReversionRsi/UniverseCreator.m",
+				"/home/dima/Development/iQt/research/matlab/MeanReversionRsi-1234/UniverseCreator.m",
+				"/home/dima/Development/iQt/research/matlab/MiscTests/convertSeries.m",
+				"/home/dima/Development/iQt/research/matlab/_obsolete/DivModelTest/ProblemDivergencies.m",
+				"/home/dima/Development/iQt/research/matlab/MarketMaking/showActivity.m",
+				"/home/dima/Development/iQt/research/matlab/hft/kalman/minObjective.m",
+				"/home/dima/Development/iQt/research/matlab/hft/kalman/ModelVerifyEOD.m",
+				"/home/dima/Development/iQt/research/matlab/GapsOnOpen/smartMovingStd.m",
+				"/home/dima/Development/iQt/research/matlab/GapsOnOpen/smartMovingAvg.m",
+				"/home/dima/Development/iQt/research/matlab/GMV/movingGMV.m",
+				"/home/dima/Development/iQt/research/matlab/DiverIndex/Model.m",
+				"/home/dima/Development/iQt/research/matlab/hft/readid/idparser_tzone.q",
+				"/home/dima/Development/iQt/research/matlab/GATrendFollowing/loadAllDailyData.m",
+				"/home/dima/Development/iQt/research/matlab/GATrendFollowing/hybrid.m",
+				"/home/dima/Development/iQt/research/matlab/ComposeETF/linearRegressionModel.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/testFirstOrderAtNewPriceLevel.m",
+				"/home/dima/Development/iQt/research/matlab/QTS20/QTS20findCrossing.m",
+				"/home/dima/Development/iQt/research/matlab/pts/find_bad_data_symbs.m",
+				"/home/dima/Development/iQt/research/matlab/ComposeETF/findBadSymbsExec.m",
+				"/home/dima/Development/iQt/research/matlab/IndexArbitrage/findCointegratedSymbols.m",
+				"/home/dima/Development/iQt/research/matlab/ComposeETF/findBadSymbs.m",
+				"/home/dima/Development/iQt/research/matlab/MarketMaking/fig.m",
+				"/home/dima/Development/iQt/research/matlab/GMV/fsprog.m",
+				"/usr/local/MATLAB/R2013a/toolbox/iqt/tester/plotBacktest.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/futils.m",
+				"/home/dima/Development/iQt/research/matlab/GMV/funcInit.m",
+				"/home/dima/Development/iQt/research/matlab/GMV/test.m",
+				"/home/dima/Development/iQt/research/matlab/Hedging/combineSignals.m",
+				"/usr/local/MATLAB/R2013a/toolbox/iqt/tester/combineSignals.m",
+				"/usr/local/MATLAB/R2013a/toolbox/iqt/tester/iqbacktest.m",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/BetaHedgingTest.m",
+				"/home/dima/Development/iQt/research/matlab/GMV/AdaptedPortfolio.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/backtest.mat",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/iqbacktest.m",
+				"/usr/local/MATLAB/R2013a/toolbox/iqt/tester/Position.m",
+				"/usr/local/MATLAB/R2013a/toolbox/iqt/tester/cropSeries.m",
+				"/usr/local/MATLAB/R2013a/toolbox/iqt/utils/flattenPriceData.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/test/m/flattenPriceData_test.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/portfolio.csv",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/pairs_cand.csv",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/pairs_2.conf",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/pairs.conf",
+				"/home/dima/Development/iQt/research/matlab/Galaxy/galaxy_universe.csv",
+				"/home/dima/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/dima/.config/sublime-text-3/Packages/Colorcoder/colorcoder.sublime-settings",
+				"/home/dima/Development/TestC/main.cpp",
+				"/home/dima/Development/iQt/research/matlab/Galaxy/Model.m",
+				"/home/dima/.config/sublime-text-3/Packages/User/dired.sublime-settings",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/test/m/iqbacktest_test.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/test/m/galaxy_universe.csv",
+				"/home/dima/Development/iQt/iqt/trunk/iqtlight.sh",
+				"/home/dima/Development/iQt/iqt/trunk/pom.xml",
+				"/home/dima/Development/iQt/iqt/trunk/licgen.sh",
+				"/home/dima/Development/iQt/research/matlab/Galaxy/generateSignals.m",
+				"/home/dima/Development/iQt/research/matlab/Galaxy/GalaxyTest.m",
+				"/home/dima/Development/iQt/research/matlab/Galaxy/Idea.m",
+				"/home/dima/Development/iQt/research/matlab/Research.sublime-project",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/ClassicPairsTest.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/CointTest.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/KalmanTest.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/Notes.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/RunSearch.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/SearchOnReadyCandidates.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/Signals.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/generateStdDevSignalsF.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/generateStdDevSignalsX.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/optimize2params.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/pshow.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/runBollinger.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/runBollingerJ.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/symbols.csv",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/visualizeResults.m",
+				"/home/dima/Development/iQt/research/matlab/ClassicPairs/cached/D_3065015313.mat",
+				"/home/dima/.config/sublime-text-3/Packages/FileBrowser/dired.hidden-tmTheme",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/test/m/flatten_symbols.csv",
+				"/home/dima/.config/sublime-text-3/Packages/FileBrowser/dired.sublime-settings",
+				"/home/dima/.config/sublime-text-3/Packages/FileBrowser/Default.sublime-keymap",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/iqbacktest_test.m",
+				"/home/dima/Development/Matlab/Epchan/book2/cointegrationTests.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/tester/combineSignals.m",
+				"/home/dima/Development/iQt/research/matlab/GMV/iqbacktest.m",
+				"/home/dima/Sandbox/node-webkit-v0.10.0-linux-x64/nw.sh",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/iqbacktest.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/tester/iqtestm.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/tester/Position.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/charts/fig.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/Test.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/utils/smartmean.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/testBivarIntensityBias.m",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/sharpe.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/utils/flattenPriceData.m",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/Calculate.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/tester/maxdd.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-brokers/src/main/java/com/jwizards/iqt/brokers/PositionTracker.java",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/combineSignals.m",
+				"/home/dima/Sandbox/Frege/Euler93.fr",
+				"/home/dima/.cache/.fr-QF1BpT/fmxmit/music/mksongc.php",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/compileSignals.m",
+				"/home/dima/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
+				"/home/dima/.config/sublime-text-3/Packages/FuzzyFileNav/Default (Linux).sublime-keymap",
+				"/home/dima/Development/Matlab/Epchan/book2/AUDCAD_daily.m",
+				"/home/dima/Development/fixc/communicator/src/main/java/com/capital514/app/CommandsHandler.java",
+				"/home/dima/Development/fixc/communicator/igepics.txt",
+				"/home/dima/Development/iQt/research/matlab/GMV/GMV.m",
+				"/home/dima/Development/iQt/research/matlab/IntroductionDemo/CrossMA.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/analysisfcns/sma.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/analysisfcns/ema.m",
+				"/home/dima/.config/sublime-text-3/Packages/User/Glue.sublime-settings",
+				"/home/dima/.config/sublime-text-3/Packages/Glue/Glue.sublime-settings",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/tester/iqtestg.m",
+				"/home/dima/Development/iQt/research/matlab/GMV/selectPortfolio.m",
+				"/home/dima/.Mathematica/SystemFiles/FrontEnd/StyleSheets/DIMA2.nb",
+				"/home/dima/.Mathematica/SystemFiles/FrontEnd/StyleSheets/Dimad.nb",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/report.csv",
+				"/home/dima/Development/fixc/igepics.txt",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/testIntensityBias.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/hbivariatelikelihood.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/hawkes/inthawkesm.m",
+				"/home/dima/Development/iQt/research/matlab/hft/hawkes/hlikelihood.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/tester/prnsigs.m",
+				"/home/dima/Development/iQt/iqt/trunk/core/t2-matlab/src/main/m/tester/iqtest.m",
+				"/home/dima/Development/iQt/research/matlab/hft/readid/datatransform.q",
+				"/home/dima/Development/iQt/research/matlab/LivePnL/data/account-summary-MRTTRADING1-20130320-2.csv"
+			],
+			"find":
+			{
+				"height": 43.0
+			},
+			"find_in_files":
+			{
+				"height": 95.0,
+				"where_history":
+				[
+					"/home/dima/Development/iQt/research/matlab/",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"selectio",
+					"sele",
+					"selectio",
+					"bm",
+					" ",
+					"kf",
+					"324",
+					"dd0",
+					"signals",
+					"gmv",
+					"copy",
+					"futils.m",
+					"\\.",
+					"\\=",
+					"\\.",
+					"FRX",
+					"LSI",
+					"FRX",
+					"^F",
+					"iq",
+					"ctrl\\+1",
+					"\\\"dired\\\"",
+					"ctrl\\+o",
+					"prc2",
+					"sigs2",
+					"pwd",
+					"intiDeposit",
+					"Subsect",
+					"DisplayF",
+					"\"Text\"",
+					"T=",
+					"wrkdydif",
+					"BAR",
+					"fieldName",
+					"BEAM",
+					"uPnl",
+					"ANSS",
+					"ABBV",
+					"ADBE",
+					"\\d+,\"(.+?)\",.*",
+					"\\d+,\"(.+?)\",",
+					"_cap",
+					"fontSize",
+					"markActiveAxes",
+					"action",
+					"bar",
+					"Collateral",
+					"Y",
+					"aprice",
+					"Pop",
+					"aIdxes",
+					"t2",
+					"bar",
+					"\n    ",
+					"bar",
+					"b0",
+					"sRow",
+					"utmtsp",
+					"Kk",
+					"typeq",
+					"case\\(([-]\\d*)\\)",
+					"case\\(([-]\\d*\\)",
+					"case\\(([-]\\d*\\))",
+					"case\\(",
+					"case\\([-]\\d\\)",
+					"case\\([-]\\d\\):",
+					"case\\([-]\\D\\):",
+					"case\\(-\\d\\)",
+					"case(-\\d)",
+					"init_sockaddr",
+					"plhs",
+					"analyze_string",
+					"if[",
+					"onMessa",
+					"\\ ",
+					"outdbdir",
+					"dbdir",
+					"unix2qTZ",
+					"minizipcmd",
+					"unix2q",
+					"13:23:24.257",
+					"basepath",
+					"lastpath",
+					"basepath",
+					"dbdir",
+					"hea",
+					"java",
+					"\n      ",
+					"java.lang.NullPointerException",
+					"13:37:",
+					"frac",
+					"\"",
+					"10:48:44",
+					"\",\\d+",
+					"(,\\d+,).*",
+					"(,\\d+,)",
+					",\\d+,",
+					"^\\n",
+					"\\n",
+					".*Closing.*",
+					".*Opening.*",
+					".*Open.*",
+					"LastTick",
+					"LastTradePrice",
+					"sprd_trade",
+					"upTick",
+					".Intensity",
+					"Intensity",
+					"downTick",
+					"LastTick",
+					"pips",
+					"downTick",
+					"DBASE",
+					"Save",
+					"\"Sa",
+					"\"&Save",
+					"\"Save",
+					"\"S",
+					"\"q\"",
+					"\"&V",
+					"\"&Wind",
+					"universe",
+					"convert\\(",
+					"Bar",
+					"Tick",
+					"TickFiel",
+					"TickFiek",
+					"convert"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+					",",
+					"$1",
+					"\n}",
+					"case $1",
+					"case $1:",
+					"\",\"",
+					"",
+					"\"",
+					"$1,",
+					"\\1,",
+					",",
+					"",
+					"cl",
+					"symbs",
+					"",
+					",",
+					"",
+					",",
+					"\\n",
+					"",
+					"$1.$2=$3",
+					"'$1'",
+					",\\n",
+					".",
+					",",
+					"$1,",
+					"",
+					"{$1,$2},",
+					".",
+					"$2,",
+					"",
+					"$1,",
+					"",
+					"$1,",
+					"",
+					"$1.$2,",
+					"$1,",
+					"$1",
+					".",
+					"",
+					"i",
+					"",
+					"\\\\",
+					"",
+					" ",
+					"price",
+					""
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": false
+			},
+			"groups":
+			[
+				{
+					"selected": 5,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "GMV/GMV.m",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1555,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										14,
+										14
+									]
+								],
+								"settings":
+								{
+									"color_scheme": "Packages/InactivePanes/Packages/Seti_UI/Seti.tmTheme",
+									"syntax": "Packages/Matlab/Matlab.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 8,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "Galaxy/GalaxyTest.m",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1321,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										881,
+										881
+									]
+								],
+								"settings":
+								{
+									"colorcode": true,
+									"forcecolorcode": false,
+									"syntax": "Packages/Matlab/Matlab.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 10,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "ClassicPairs/ClassicPairsTest.m",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1697,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1539,
+										1539
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Matlab/Matlab.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 9,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1315,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										519,
+										519
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"word_wrap": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "Hedging/Hedge.m",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1864,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1819,
+										1819
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Matlab/Matlab.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 234.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/dima/.config/sublime-text-3/Packages/Seti_UI/Seti.tmTheme",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 63664,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1525,
+										1525
+									]
+								],
+								"settings":
+								{
+									"color_scheme": "Packages/InactivePanes/Packages/Seti_UI/Seti.tmTheme",
+									"syntax": "Packages/XML/XML.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 228.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/dima/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1076,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										212,
+										212
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/usr/local/MATLAB/R2013a/toolbox/iqt/tester/plotBacktest.m",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4769,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										204,
+										204
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Matlab/Matlab.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 8,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 51,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										51,
+										51
+									]
+								],
+								"settings":
+								{
+									"auto_complete": false,
+									"auto_indent": false,
+									"detect_indentation": false,
+									"gutter": true,
+									"history_arrows": true,
+									"indent_subsequent_lines": false,
+									"line_numbers": false,
+									"repl": true,
+									"repl_external_id": "matlab",
+									"repl_id": "e5f7db8d8699464cac991d0637935172",
+									"repl_restart_args":
+									{
+										"cmd":
+										[
+											"/usr/local/MATLAB/R2013a/bin/matlab",
+											"-nodesktop",
+											"-nosplash"
+										],
+										"cwd": "/home/dima/",
+										"encoding": "utf8",
+										"external_id": "matlab",
+										"syntax": "Packages/User/MatlabREPL.tmLanguage",
+										"type": "subprocess"
+									},
+									"repl_sublime2": false,
+									"smart_indent": false,
+									"spell_check": false,
+									"syntax": "Packages/User/MatlabREPL.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 9,
+							"file": "hft/readid/limedata.q",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2154,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1372,
+										1372
+									]
+								],
+								"settings":
+								{
+									"color_scheme": "Packages/InactivePanes/Packages/Seti_UI/Seti.tmTheme",
+									"syntax": "Packages/User/Q.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 84.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 10,
+							"file": "LivePnL/livedataparse.q",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1114,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										402,
+										402
+									],
+									[
+										991,
+										991
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/User/Q.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 12,
+							"type": "text"
+						},
+						{
+							"buffer": 11,
+							"file": "hft/readid/limeparser.q",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2832,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										268,
+										268
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/User/Q.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 13,
+							"type": "text"
+						},
+						{
+							"buffer": 12,
+							"file": "hft/readid/test.q",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5361,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										900,
+										900
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/User/Q.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 14,
+							"type": "text"
+						},
+						{
+							"buffer": 13,
+							"file": "/home/dima/Development/q/start/Adverbs.q",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4395,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										744,
+										744
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/User/Q.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 11,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 14,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1019,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										943,
+										943
+									]
+								],
+								"settings":
+								{
+									"color_scheme": "Packages/InactivePanes/Packages/FileBrowser/dired.hidden-tmTheme",
+									"dired_count": 41,
+									"dired_path": "/home/dima/.config/sublime-text-3/Packages/Seti_UI/",
+									"dired_rename_mode": false,
+									"syntax": "Packages/FileBrowser/dired.hidden-tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 4.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 36.0
+			},
+			"input":
+			{
+				"height": 36.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						1,
+						0,
+						2,
+						1
+					],
+					[
+						0,
+						1,
+						3,
+						2
+					],
+					[
+						2,
+						0,
+						3,
+						1
+					],
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.129427083333,
+					0.6765625,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					0.631205673758,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 251.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.haskell_sublime_load":
+			{
+				"height": 138.0
+			},
+			"output.hex_viewer_inspector":
+			{
+				"height": 138.0
+			},
+			"position": "0,1,0,0,0,0,0,0,0,1920,1080",
+			"project": "Research.sublime-project",
+			"replace":
+			{
+				"height": 66.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"op",
+						"hft/utils/cnv_open.m"
+					],
+					[
+						"adds",
+						"hft/utils/addSpread.m"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 125.0,
+				"selected_items":
+				[
+					[
+						"",
+						"kalman_model_2"
+					]
+				],
+				"width": 378.0
+			},
+			"selected_group": 1,
+			"settings":
+			{
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 293.0,
+			"status_bar_visible": false,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": "/home/dima/Development/iQt/research/matlab/Research.sublime-workspace"
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/dima/Development/iQt/research/matlab/Research.sublime-workspace"
+		]
+	}
+}

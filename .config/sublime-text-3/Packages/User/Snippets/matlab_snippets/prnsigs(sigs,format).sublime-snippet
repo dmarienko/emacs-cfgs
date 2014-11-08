@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[prnsigs(${1:signals},${2:'dd/mm/yy HH:MM'})]]></content>
+	<tabTrigger>prnsigs</tabTrigger> -->
+	<scope>source.matlab</scope> -->
+	<!-- the_case -->
+</snippet>

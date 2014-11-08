@@ -1,0 +1,16 @@
+{
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"CTags",
+		"FileBrowser",
+		"InactivePanes",
+		"IPython Notebook",
+		"Jedi - Python autocompletion",
+		"Origami",
+		"Package Control",
+		"RecentActiveFiles",
+		"Seti_UI",
+		"SublimeREPL"
+	]
+}

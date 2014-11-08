@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[loadAllDailyData(${1:symbols},${2:'2000-01-01'},${3:'yahoo.a'})]]></content>
+	<tabTrigger>loadAllDailyData</tabTrigger> -->
+	<scope>source.matlab</scope> -->
+	<!-- the_case -->
+</snippet>

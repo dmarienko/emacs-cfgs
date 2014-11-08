@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[prnsigs(${1:signals})]]></content>
+	<tabTrigger>prnsigs</tabTrigger> -->
+	<scope>source.matlab</scope> -->
+	<!-- the_case -->
+</snippet>

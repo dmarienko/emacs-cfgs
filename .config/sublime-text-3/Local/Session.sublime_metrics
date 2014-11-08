@@ -1,0 +1,18 @@
+{
+	"licensed": false,
+	"packages":
+	[
+		"CTags",
+		"IPython Notebook",
+		"InactivePanes",
+		"Origami",
+		"RecentActiveFiles"
+	],
+	"startup_sec": 7.726998,
+	"syntax":
+	{
+		"Matlab": 1,
+		"Q": 343
+	},
+	"time": 1409315147
+}

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[fetch(${1:provider},${2:symbols},${3:Helper.D},${4:from},${5:to})]]></content>
+	<tabTrigger>fetch</tabTrigger> -->
+	<scope>source.matlab</scope> -->
+	<!-- the_case -->
+</snippet>

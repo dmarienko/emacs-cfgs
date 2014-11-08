@@ -1,0 +1,30 @@
+{
+	"color_scheme": "Packages/FileBrowser/dired.hidden-tmTheme",
+	"dired_confirm_send2trash": true,
+	"dired_hidden_files_patterns":
+	[
+		".*"
+	],
+	"dired_hijack_new_window": true,
+	"dired_jump_points":
+	{
+		"ClassicPairs": "/home/dima/Development/iQt/research/matlab/ClassicPairs/",
+		"GMV": "/home/dima/Development/iQt/research/matlab/GMV/",
+		"Galaxy": "/home/dima/Development/iQt/research/matlab/Galaxy/",
+		"iqt @ MATLAB": "/usr/local/MATLAB/R2013a/toolbox/iqt/"
+	},
+	"dired_reuse_view": true,
+	"dired_show_hidden_files": true,
+	"dired_show_parent": true,
+	"drag_text": false,
+	"draw_indent_guides": true,
+	"fold_buttons": false,
+	"git_path": "",
+	"highlight_line": true,
+	"line_numbers": false,
+	"margin": 0,
+	"scroll_past_end": false,
+	"spell_check": false,
+	"tab_size": 3,
+	"word_wrap": false
+}

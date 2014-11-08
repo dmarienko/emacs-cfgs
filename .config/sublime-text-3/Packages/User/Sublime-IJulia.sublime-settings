@@ -1,0 +1,20 @@
+{
+	// "zmq_shared_library": {
+	// 	"linux": "/usr/lib/x86_64-linux-gnu/libzmq.so"
+	// 	},
+
+		"linux": {
+    // "zmq_shared_library": "~/.julia/v0.3/ZMQ/deps/usr/lib/libzmq.so",
+    //"zmq_shared_library": "/usr/lib/x86_64-linux-gnu/libzmq.so",
+    "zmq_shared_library": "~/.julia/ZMQ/deps/lib/libzmq.so",
+    "commands": [
+        {
+            "command_name": "default",
+            "julia": "/usr/bin/julia",
+            "julia_args": "",
+            "ijulia_kernel": "~/.julia/IJulia/src/kernel.jl"
+        }
+    ]
+}
+}
+

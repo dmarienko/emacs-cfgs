@@ -48,6 +48,7 @@ def q_sender(repl, text, view=None):
     #sublime.error_message(mt)
     default_sender(repl, mt, view)
 
+
 @sender("python")
 def python_sender(repl, text, view=None):
     text_wo_encoding = re.sub(

@@ -1,0 +1,8 @@
+{
+	"glue_userpath" : "/home/dima",
+	"glue_shellpath" : "",
+	"glue_ps1" : "█",
+	"glue_display_path": true,
+	"glue_exit_message" : "Bye",
+	"glue_working_directory": "/home/dima"
+}
