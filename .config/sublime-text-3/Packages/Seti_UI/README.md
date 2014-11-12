@@ -2,18 +2,18 @@
 
 `SublimeText 3 Theme & ColorScheme` Port of Seti_UI & Syntax by [jesseweed](https://github.com/jesseweed/seti-ui)
 
-![Seti Screenshot](screenshot-1.jpg)
-![Seti Screenshot](screenshot-2.jpg)
+![Seti Screenshot](screenshot-1.png)
+![Seti Screenshot](screenshot-2.png)
 
 
 # Notes
 - This is my first of its kind so if you found any bugs ,please issue a ticket.
 
-- The Theme is considered in beta-ish.
-
 - I included a folder with some files types from `jesseweed` and `DanBrooker` to test the icons ,you should probably add some of them to the "file_exclude_patterns" as ST wont open them anyway.
 
 - Any thing less than 'ST3 Build 3062' wont get the sidebar icons to work.
+
+- if you used any of the resources in this repo into your own release ,plz appreciate the hard work and mention the original authors.
 
 
 ## Install
@@ -37,7 +37,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ```
 {
   "theme": "Seti.sublime-theme",
-  "color_scheme": "Packages/Seti_UI/Seti.tmTheme",
+  "color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
   "caret_extra_width": 2 // to have a wider/thicker caret
 }
 ```
@@ -62,9 +62,9 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 - No file icon in the opened tabs, ST lacks this.
 
-- Not as icon rich as the original because ST can't see anything other than Extensions ,and even thou its still hard to make it use the icon you want "thats why some icons are duplicated".
+- Not as icon rich as the original because ST can't see anything other than Extensions ,and even thou its still hard to make it use the icon you want.
 
-- Some scopes have different colors in Atom like the (:) ,this is related to the tmLanguage file in ST ,also note that Atom sometimes will display a different color than ST "even if both editors have the same scope name".
+- Some scopes have different colors in Atom like the (:) ,this is related to the tmLanguage file in ST ,also note that Atom sometimes will display a different color than ST "even if the scope name matches in both editors".
 
 - Current line number highlight color, ST lacks this.
 
@@ -74,11 +74,11 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ## TODO
 
 1. Make the search input field shorter or "slimier" (depend on which side of the earth you are living).
-2. haven't tested on Retina ,so anyone with Retina Mac plz test and report any found bugs.
+2. Better syntax Highlight. "90% done"
 
 
 ## Issue A Ticket
  1. what version of ST are you using ? (nothing lower than 3062);
  2. have you restarted ST after you installed the theme ?
- 3. if you still have bad render ,have you removed the cashe folder ? (found right next to the packages folder)
+ 3. if you still have bad render ,have you removed the cache folder ? (found right next to the packages folder)
  4. have you copied the files from the "Ext" folder to your User folder ?
