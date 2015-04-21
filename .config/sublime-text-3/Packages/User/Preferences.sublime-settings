@@ -1,21 +1,21 @@
 {
-	"always_show_minimap_viewport": true,
+	"always_show_minimap_viewport": false,
 	"auto_complete": false,
 	"auto_complete_commit_on_tab": false,
 	"bold_folder_labels": true,
 	"caret_extra_width": 2,
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Seti_UI/Seti.tmTheme",
+	"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"find_selected_text": true,
 	"font_face": "MonacoB2",
-	"font_size": 9,
+	"font_size": 10,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Jedi - Python autocompletion"
+		"Jedi - Python autocompletion",
+		"Vintage"
 	],
 	"inactive_panes_dim_color": "#303030",
 	"inactive_panes_dim_strength": 0.2,

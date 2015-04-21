@@ -33,7 +33,8 @@
 	{ "keys": ["ctrl+down"], "command": "auto_complete" },
 
 	{ "keys": ["alt+x", "alt+v"], "command": "expand_selection", "args": {"to": "scope"} },
-	{ "keys": ["alt+v"], "command": "expand_selection", "args": {"to": "word"} },
+	//{ "keys": ["alt+v"], "command": "expand_selection", "args": {"to": "word"} },
+	{ "keys": ["alt+v"], "command": "expand_region" },
 
 	{ "keys": ["ctrl+x", "g"], "command": "goto_definition" },
 
