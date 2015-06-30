@@ -1,0 +1,50 @@
+scout -gplt  
+scout -gplt  c514
+cd tmp
+search_inc tm
+scout -gplt  c5
+scout -gplt 
+scout -gplt  Te
+scout -gpt  c5
+scout -gpt  *file
+find file
+filter he
+search_inc file
+filter
+filter 
+mark F*/java
+mark F*.java
+unmap 
+mark Fut
+mark Acc
+rename UnderCompDlgcc.java
+scout -gpt 
+mark *
+unmark Exec
+find IB
+search_inc 
+search_inc IB
+find Ma
+scout -gpt  
+search_inc Main
+find ma
+find M
+rename rfq
+find acco
+find mk
+find log
+search_inc Ord
+search_inc Order
+search_inc Dlg
+find hDlg
+grep 
+search_inc MA
+rename ibtopt.m
+
+shell -w svn ci -m "Some fixes in ibopt"
+shell -w svn st
+touch 
+touch combine.m
+open_with 
+delete
+tag
