@@ -1,0 +1,5 @@
+{
+    //youtrack
+    "orgmode.open_link.resolver.redmine.url":"http://youtrack.jwizards.com/issue/%s",
+    "orgmode.open_link.resolver.redmine.pattern":"^(issue:|youtrack:|#)(?P<issue>.+)$",
+}

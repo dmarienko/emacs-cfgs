@@ -36,6 +36,7 @@
         {"name": "Home", "path": {"#multiconf#": [{"os:linux": "~"}]}},
         {"name": "iQt:Research", "path": {"#multiconf#": [{"os:linux": "~/Development/iQt/research/matlab"}]}},
         {"name": "iQt:Core", "path": {"#multiconf#": [{"os:linux": "~/Development/iQt/iqt/trunk/core"}]}},
+        {"name": "iQt:Matlab", "path": {"#multiconf#": [{"os:linux": "~/Development/iQt/iqt/trunk/core/t2-matlab/src/main"}]}},
         {"name": "iQt:Strategies", "path": {"#multiconf#": [{"os:linux": "~/Development/iQt/iqt/trunk/research/src/main/java"}]}}
     ],
 

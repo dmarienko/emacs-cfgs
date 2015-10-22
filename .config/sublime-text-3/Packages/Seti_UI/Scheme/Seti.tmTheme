@@ -14,9 +14,10 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#191b1c</string>
+				<!-- <string>#191b1c</string> -->
+				<string>#101010</string>
 				<key>foreground</key>
-				<string>#b2b5b4</string>
+				<string>#919191</string>
 				<key>caret</key>
 				<string>#d24d0c</string>
 				<key>invisibles</key>
@@ -28,12 +29,15 @@
 				<key>inactiveSelection</key>
 				<string>#2e5768</string>
 				<key>gutter</key>
-				<string>#131516</string>
+				<!-- <string>#131516</string> -->
+				<string>#101010</string>
 				<key>gutterForeground</key>
 				<string>#2b3135</string>
 				<key>selection</key>
-				<string>#093c55</string>
+				<!-- <string>#093c55</string> -->
+				<string>#003850</string>
 				<key>selectionForeground</key>
+				<!-- <string>#b1b1b1</string> -->
 				<string>#b1b1b1</string>
 				<key>bracketContentsOptions</key>
 				<string>underline</string>

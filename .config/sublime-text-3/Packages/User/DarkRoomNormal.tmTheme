@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>name</key>
-  <string>Dark Room - Contrast</string>
+  <string>Dark Room - Normal</string>
   <key>uuid</key>
   <string>1dbf05b0-87fe-309a-9909-96dbe6250e8f</string>
   <key>settings</key>
@@ -14,7 +14,7 @@
         <key>foreground</key>
         <string>#808080</string>
         <key>background</key>
-        <string>#000000</string>
+        <string>#1d1f21</string>
         <key>caret</key>
         <string>#c0c0c0</string>
         <key>lineHighlight</key>
@@ -396,7 +396,7 @@
         <key>foreground</key>
         <string>#808080ff</string>
         <key>background</key>
-        <string>#000000ff</string>
+        <string>#1d1f21ff</string>
       </dict>
     </dict>
     <dict>
@@ -409,7 +409,7 @@
         <key>foreground</key>
         <string>#c8c8c8ff</string>
         <key>background</key>
-        <string>#000000ff</string>
+        <string>#1d1f21ff</string>
       </dict>
     </dict>
     <dict>

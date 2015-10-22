@@ -18,7 +18,7 @@
 
 
 	{ "keys": ["alt+z"], "command": "toggle_comment", "args": { "block": false } },
-	{ "keys": ["ctrl+0"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+	{ "keys": ["ctrl+shift+7"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
 
 	{ "keys": ["alt+."], "command": "auto_complete" },
 	{ "keys": ["alt+."], "command": "replace_completion_with_auto_complete", "context":
@@ -168,14 +168,6 @@
 		}
 	},
 
-	{ "keys": ["ctrl+x","!"], "command": "move_to_group", "args": { "group": 0 } },
-	{ "keys": ["ctrl+x","@"], "command": "move_to_group", "args": { "group": 1 } },
-	{ "keys": ["ctrl+x","#"], "command": "move_to_group", "args": { "group": 2 } },
-	{ "keys": ["ctrl+x","$"], "command": "move_to_group", "args": { "group": 3 } },
-	{ "keys": ["ctrl+x","%"], "command": "move_to_group", "args": { "group": 4 } },
-	{ "keys": ["ctrl+x","^"], "command": "move_to_group", "args": { "group": 5 } },
-	{ "keys": ["ctrl+x","&"], "command": "move_to_group", "args": { "group": 6 } },
-	{ "keys": ["ctrl+x","*"], "command": "move_to_group", "args": { "group": 7 } },
 
 	// ----------------- Origami -----------------
 	{ "keys": ["alt+up"], "command": "travel_to_pane", "args": {"direction": "up"} },
@@ -199,7 +191,12 @@
 
 	{ "keys": ["alt+x", "alt+c"], "command": "resize_pane", "args": {"orientation": "cols"} },
 	{ "keys": ["alt+x", "alt+r"], "command": "resize_pane", "args": {"orientation": "rows"} },
-	// ----------------- Origami -----------------
+
+	{ "keys": ["alt+x", "up"], "command": "carry_file_to_pane", "args": {"direction": "up"} },
+	{ "keys": ["alt+x", "right"], "command": "carry_file_to_pane", "args": {"direction": "right"} },
+	{ "keys": ["alt+x", "down"], "command": "carry_file_to_pane", "args": {"direction": "down"} },
+	{ "keys": ["alt+x", "left"], "command": "carry_file_to_pane", "args": {"direction": "left"} },
+ 	// ----------------- Origami -----------------
 
 	// ----------------- Recent files -----------------
 	{ "keys": ["ctrl+e"], "command": "recent_active_files" },

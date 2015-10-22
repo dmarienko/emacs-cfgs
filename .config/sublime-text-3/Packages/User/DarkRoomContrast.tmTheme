@@ -278,7 +278,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#808000ff</string>
+        <string>#404040</string>
         <key>fontStyle</key>
         <string>italic</string>
       </dict>

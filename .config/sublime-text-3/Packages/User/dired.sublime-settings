@@ -1,5 +1,6 @@
 {
-	"color_scheme": "Packages/FileBrowser/dired.hidden-tmTheme",
+	//"color_scheme": "Packages/FileBrowser/dired.hidden-tmTheme",
+    "color_scheme": "Packages/User/SetiDired.tmTheme",
 	"dired_confirm_send2trash": true,
 	"dired_header": true,
 	"dired_hidden_files_patterns":
@@ -17,12 +18,18 @@
 	"dired_show_full_path": true,
 	"dired_show_hidden_files": true,
 	"dired_show_parent": true,
+	"dired_to_copy":
+	[
+	],
+	"dired_to_move":
+	[
+	],
 	"drag_text": false,
 	"draw_indent_guides": true,
 	"fold_buttons": false,
-	"font_face": "Pragmata TT",
+	"font_face": "Meslo LG S",
 	"font_size": 10,
-	"git_path": "",
+	"git_path": "/usr/bin/git",
 	"highlight_line": true,
 	"line_numbers": false,
 	"margin": -10,

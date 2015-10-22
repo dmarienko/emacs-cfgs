@@ -1,0 +1,34 @@
+{
+    // Custom symbols
+    // Use it for you symbols, for example:
+    // {
+    //     "mysymbol": "\u0021",
+    //     "myothersymbol": "\u2080"
+    // }
+    "symbols": {
+        "xdot": "\u1e8b",
+        "Xdot": "\u1e8a",
+        "xdot2": "\u1e8d",
+        "Xdot2": "\u1e8c",
+        "lt": "\u2329",
+        "rt": "\u232a",
+        "urc": "\u2513", "ulc": "\u250f", "vl": "\u2503", "hl": "\u2501", "blc":"\u2517", "brc":"\u251b",
+        "pent" : "\u26e7",
+        "inf": "\u221E"
+    },
+    // Custom synonyms
+    // Synonims for existing symbol names:
+    // {
+    //     "mys": "mysymbol"
+    // }
+    "synonyms": {},
+    // Syntaxes to ignore
+    "ignore_syntax": ["latex"],
+    // Convert \uXXXX and \UXXXXXXXX to symbol
+    "convert_codes": true,
+    // Convert multichar subscript and superscript \^abc → \^a\^b\^c and \_abc → \_a\_b\_c
+    "convert_sub_super": true,
+    // List-convert, \\prefix\abc → \prefixa\prefixb\prefixc, for example
+    // \\Bbb\ABC → \BbbA\BbbB\BbbC → 𝔸𝔹ℂ
+    "convert_list": true
+}
