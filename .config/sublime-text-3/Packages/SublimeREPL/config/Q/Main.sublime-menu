@@ -13,9 +13,9 @@
                  "id": "repl_q",
                  "mnemonic": "q",
                  "args": {
-                    "type": "subprocess",
+                    "type": "kdb",
                     "encoding": "utf8",
-                    "cmd": ["/home/dima/q/l32/Q", "-p", "5555"],
+                    "cmd": ["/home/dima/q/l32/q", "-p", "5555"],
                     "cwd": "$file_path",
                     "external_id": "q",
                     "additional_scopes": ["Q"],
